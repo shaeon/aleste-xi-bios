@@ -1,1 +1,1 @@
- libz80ex.a "/tmp/SDL2-2.30.9/x86_64-w64-mingw32/lib/libSDL2main.a" "/tmp/SDL2-2.30.9/x86_64-w64-mingw32/lib/libSDL2.dll.a" -lshell32 -Wl,--undefined=WinMain -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+ -lcomdlg32 libz80ex.a "/tmp/SDL2-2.30.9/x86_64-w64-mingw32/lib/libSDL2main.a" "/tmp/SDL2-2.30.9/x86_64-w64-mingw32/lib/libSDL2.dll.a" -lshell32 -Wl,--undefined=WinMain -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
