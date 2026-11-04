@@ -1,0 +1,6 @@
+/home/claude/aleste-xi-bios/emulator/buildwin/CMakeFiles/z80ex.dir
+/home/claude/aleste-xi-bios/emulator/buildwin/CMakeFiles/alestelx.dir
+/home/claude/aleste-xi-bios/emulator/buildwin/CMakeFiles/test_matrix.dir
+/home/claude/aleste-xi-bios/emulator/buildwin/CMakeFiles/test.dir
+/home/claude/aleste-xi-bios/emulator/buildwin/CMakeFiles/edit_cache.dir
+/home/claude/aleste-xi-bios/emulator/buildwin/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,2 @@
+/usr/bin/x86_64-w64-mingw32-ar qc libz80ex.a "CMakeFiles/z80ex.dir/home/claude/aleste-xi-bios/deps/z80ex/z80ex.c.obj" "CMakeFiles/z80ex.dir/home/claude/aleste-xi-bios/deps/z80ex/z80ex_dasm.c.obj"
+/usr/bin/x86_64-w64-mingw32-ranlib libz80ex.a

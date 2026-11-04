@@ -1,0 +1,1 @@
+-I"/home/claude/aleste-xi-bios/emulator/../deps/z80ex/include" -I"/home/claude/aleste-xi-bios/emulator/../deps/z80ex" -isystem "/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include" -isystem "/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2"
