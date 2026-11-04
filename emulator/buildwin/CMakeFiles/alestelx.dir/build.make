@@ -99,11 +99,26 @@ CMakeFiles/alestelx.dir/lx/machine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/alestelx.dir/lx/machine.cpp.s"
 	/usr/bin/x86_64-w64-mingw32-g++-posix $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/claude/aleste-xi-bios/emulator/lx/machine.cpp -o CMakeFiles/alestelx.dir/lx/machine.cpp.s
 
+CMakeFiles/alestelx.dir/lx/legacy.cpp.obj: CMakeFiles/alestelx.dir/flags.make
+CMakeFiles/alestelx.dir/lx/legacy.cpp.obj: CMakeFiles/alestelx.dir/includes_CXX.rsp
+CMakeFiles/alestelx.dir/lx/legacy.cpp.obj: /home/claude/aleste-xi-bios/emulator/lx/legacy.cpp
+CMakeFiles/alestelx.dir/lx/legacy.cpp.obj: CMakeFiles/alestelx.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/claude/aleste-xi-bios/emulator/buildwin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/alestelx.dir/lx/legacy.cpp.obj"
+	/usr/bin/x86_64-w64-mingw32-g++-posix $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/alestelx.dir/lx/legacy.cpp.obj -MF CMakeFiles/alestelx.dir/lx/legacy.cpp.obj.d -o CMakeFiles/alestelx.dir/lx/legacy.cpp.obj -c /home/claude/aleste-xi-bios/emulator/lx/legacy.cpp
+
+CMakeFiles/alestelx.dir/lx/legacy.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/alestelx.dir/lx/legacy.cpp.i"
+	/usr/bin/x86_64-w64-mingw32-g++-posix $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/claude/aleste-xi-bios/emulator/lx/legacy.cpp > CMakeFiles/alestelx.dir/lx/legacy.cpp.i
+
+CMakeFiles/alestelx.dir/lx/legacy.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/alestelx.dir/lx/legacy.cpp.s"
+	/usr/bin/x86_64-w64-mingw32-g++-posix $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/claude/aleste-xi-bios/emulator/lx/legacy.cpp -o CMakeFiles/alestelx.dir/lx/legacy.cpp.s
+
 CMakeFiles/alestelx.dir/lx/fdc765.cpp.obj: CMakeFiles/alestelx.dir/flags.make
 CMakeFiles/alestelx.dir/lx/fdc765.cpp.obj: CMakeFiles/alestelx.dir/includes_CXX.rsp
 CMakeFiles/alestelx.dir/lx/fdc765.cpp.obj: /home/claude/aleste-xi-bios/emulator/lx/fdc765.cpp
 CMakeFiles/alestelx.dir/lx/fdc765.cpp.obj: CMakeFiles/alestelx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/claude/aleste-xi-bios/emulator/buildwin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/alestelx.dir/lx/fdc765.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/claude/aleste-xi-bios/emulator/buildwin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/alestelx.dir/lx/fdc765.cpp.obj"
 	/usr/bin/x86_64-w64-mingw32-g++-posix $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/alestelx.dir/lx/fdc765.cpp.obj -MF CMakeFiles/alestelx.dir/lx/fdc765.cpp.obj.d -o CMakeFiles/alestelx.dir/lx/fdc765.cpp.obj -c /home/claude/aleste-xi-bios/emulator/lx/fdc765.cpp
 
 CMakeFiles/alestelx.dir/lx/fdc765.cpp.i: cmake_force
@@ -118,7 +133,7 @@ CMakeFiles/alestelx.dir/lx/debugger.cpp.obj: CMakeFiles/alestelx.dir/flags.make
 CMakeFiles/alestelx.dir/lx/debugger.cpp.obj: CMakeFiles/alestelx.dir/includes_CXX.rsp
 CMakeFiles/alestelx.dir/lx/debugger.cpp.obj: /home/claude/aleste-xi-bios/emulator/lx/debugger.cpp
 CMakeFiles/alestelx.dir/lx/debugger.cpp.obj: CMakeFiles/alestelx.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/claude/aleste-xi-bios/emulator/buildwin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/alestelx.dir/lx/debugger.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/claude/aleste-xi-bios/emulator/buildwin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/alestelx.dir/lx/debugger.cpp.obj"
 	/usr/bin/x86_64-w64-mingw32-g++-posix $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/alestelx.dir/lx/debugger.cpp.obj -MF CMakeFiles/alestelx.dir/lx/debugger.cpp.obj.d -o CMakeFiles/alestelx.dir/lx/debugger.cpp.obj -c /home/claude/aleste-xi-bios/emulator/lx/debugger.cpp
 
 CMakeFiles/alestelx.dir/lx/debugger.cpp.i: cmake_force
@@ -133,6 +148,7 @@ CMakeFiles/alestelx.dir/lx/debugger.cpp.s: cmake_force
 alestelx_OBJECTS = \
 "CMakeFiles/alestelx.dir/lx/main_lx.cpp.obj" \
 "CMakeFiles/alestelx.dir/lx/machine.cpp.obj" \
+"CMakeFiles/alestelx.dir/lx/legacy.cpp.obj" \
 "CMakeFiles/alestelx.dir/lx/fdc765.cpp.obj" \
 "CMakeFiles/alestelx.dir/lx/debugger.cpp.obj"
 
@@ -141,6 +157,7 @@ alestelx_EXTERNAL_OBJECTS =
 
 alestelx.exe: CMakeFiles/alestelx.dir/lx/main_lx.cpp.obj
 alestelx.exe: CMakeFiles/alestelx.dir/lx/machine.cpp.obj
+alestelx.exe: CMakeFiles/alestelx.dir/lx/legacy.cpp.obj
 alestelx.exe: CMakeFiles/alestelx.dir/lx/fdc765.cpp.obj
 alestelx.exe: CMakeFiles/alestelx.dir/lx/debugger.cpp.obj
 alestelx.exe: CMakeFiles/alestelx.dir/build.make
@@ -150,7 +167,7 @@ alestelx.exe: /tmp/SDL2-2.30.9/x86_64-w64-mingw32/lib/libSDL2.dll.a
 alestelx.exe: CMakeFiles/alestelx.dir/linkLibs.rsp
 alestelx.exe: CMakeFiles/alestelx.dir/objects1.rsp
 alestelx.exe: CMakeFiles/alestelx.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/claude/aleste-xi-bios/emulator/buildwin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable alestelx.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/claude/aleste-xi-bios/emulator/buildwin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable alestelx.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/alestelx.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -85,7 +85,7 @@ clean: CMakeFiles/test_matrix.dir/clean
 CMakeFiles/z80ex.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/z80ex.dir/build.make CMakeFiles/z80ex.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/z80ex.dir/build.make CMakeFiles/z80ex.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/claude/aleste-xi-bios/emulator/buildwin/CMakeFiles --progress-num=10,11,12 "Built target z80ex"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/claude/aleste-xi-bios/emulator/buildwin/CMakeFiles --progress-num=12,13,14 "Built target z80ex"
 .PHONY : CMakeFiles/z80ex.dir/all
 
 # Build rule for subdir invocation for target.
@@ -111,12 +111,12 @@ CMakeFiles/z80ex.dir/clean:
 CMakeFiles/alestelx.dir/all: CMakeFiles/z80ex.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/alestelx.dir/build.make CMakeFiles/alestelx.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/alestelx.dir/build.make CMakeFiles/alestelx.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/claude/aleste-xi-bios/emulator/buildwin/CMakeFiles --progress-num=1,2,3,4,5 "Built target alestelx"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/claude/aleste-xi-bios/emulator/buildwin/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target alestelx"
 .PHONY : CMakeFiles/alestelx.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/alestelx.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/claude/aleste-xi-bios/emulator/buildwin/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/claude/aleste-xi-bios/emulator/buildwin/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/alestelx.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/claude/aleste-xi-bios/emulator/buildwin/CMakeFiles 0
 .PHONY : CMakeFiles/alestelx.dir/rule
@@ -137,12 +137,12 @@ CMakeFiles/alestelx.dir/clean:
 CMakeFiles/test_matrix.dir/all: CMakeFiles/z80ex.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_matrix.dir/build.make CMakeFiles/test_matrix.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_matrix.dir/build.make CMakeFiles/test_matrix.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/claude/aleste-xi-bios/emulator/buildwin/CMakeFiles --progress-num=6,7,8,9 "Built target test_matrix"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/claude/aleste-xi-bios/emulator/buildwin/CMakeFiles --progress-num=7,8,9,10,11 "Built target test_matrix"
 .PHONY : CMakeFiles/test_matrix.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/test_matrix.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/claude/aleste-xi-bios/emulator/buildwin/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/claude/aleste-xi-bios/emulator/buildwin/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/test_matrix.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/claude/aleste-xi-bios/emulator/buildwin/CMakeFiles 0
 .PHONY : CMakeFiles/test_matrix.dir/rule

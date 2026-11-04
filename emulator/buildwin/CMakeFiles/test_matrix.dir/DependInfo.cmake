@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/claude/aleste-xi-bios/emulator/lx/fdc765.cpp" "CMakeFiles/test_matrix.dir/lx/fdc765.cpp.obj" "gcc" "CMakeFiles/test_matrix.dir/lx/fdc765.cpp.obj.d"
+  "/home/claude/aleste-xi-bios/emulator/lx/legacy.cpp" "CMakeFiles/test_matrix.dir/lx/legacy.cpp.obj" "gcc" "CMakeFiles/test_matrix.dir/lx/legacy.cpp.obj.d"
   "/home/claude/aleste-xi-bios/emulator/lx/machine.cpp" "CMakeFiles/test_matrix.dir/lx/machine.cpp.obj" "gcc" "CMakeFiles/test_matrix.dir/lx/machine.cpp.obj.d"
   "/home/claude/aleste-xi-bios/emulator/tests/test_matrix.cpp" "CMakeFiles/test_matrix.dir/tests/test_matrix.cpp.obj" "gcc" "CMakeFiles/test_matrix.dir/tests/test_matrix.cpp.obj.d"
   )

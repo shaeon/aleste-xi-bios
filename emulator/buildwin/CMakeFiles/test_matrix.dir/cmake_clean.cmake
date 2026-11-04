@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/test_matrix.dir/lx/fdc765.cpp.obj"
   "CMakeFiles/test_matrix.dir/lx/fdc765.cpp.obj.d"
+  "CMakeFiles/test_matrix.dir/lx/legacy.cpp.obj"
+  "CMakeFiles/test_matrix.dir/lx/legacy.cpp.obj.d"
   "CMakeFiles/test_matrix.dir/lx/machine.cpp.obj"
   "CMakeFiles/test_matrix.dir/lx/machine.cpp.obj.d"
   "CMakeFiles/test_matrix.dir/tests/test_matrix.cpp.obj"

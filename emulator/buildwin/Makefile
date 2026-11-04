@@ -264,6 +264,33 @@ lx/fdc765.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_matrix.dir/build.make CMakeFiles/test_matrix.dir/lx/fdc765.cpp.s
 .PHONY : lx/fdc765.cpp.s
 
+lx/legacy.obj: lx/legacy.cpp.obj
+.PHONY : lx/legacy.obj
+
+# target to build an object file
+lx/legacy.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alestelx.dir/build.make CMakeFiles/alestelx.dir/lx/legacy.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_matrix.dir/build.make CMakeFiles/test_matrix.dir/lx/legacy.cpp.obj
+.PHONY : lx/legacy.cpp.obj
+
+lx/legacy.i: lx/legacy.cpp.i
+.PHONY : lx/legacy.i
+
+# target to preprocess a source file
+lx/legacy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alestelx.dir/build.make CMakeFiles/alestelx.dir/lx/legacy.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_matrix.dir/build.make CMakeFiles/test_matrix.dir/lx/legacy.cpp.i
+.PHONY : lx/legacy.cpp.i
+
+lx/legacy.s: lx/legacy.cpp.s
+.PHONY : lx/legacy.s
+
+# target to generate assembly for a file
+lx/legacy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alestelx.dir/build.make CMakeFiles/alestelx.dir/lx/legacy.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_matrix.dir/build.make CMakeFiles/test_matrix.dir/lx/legacy.cpp.s
+.PHONY : lx/legacy.cpp.s
+
 lx/machine.obj: lx/machine.cpp.obj
 .PHONY : lx/machine.obj
 
@@ -363,6 +390,9 @@ help:
 	@echo "... lx/fdc765.obj"
 	@echo "... lx/fdc765.i"
 	@echo "... lx/fdc765.s"
+	@echo "... lx/legacy.obj"
+	@echo "... lx/legacy.i"
+	@echo "... lx/legacy.s"
 	@echo "... lx/machine.obj"
 	@echo "... lx/machine.i"
 	@echo "... lx/machine.s"
