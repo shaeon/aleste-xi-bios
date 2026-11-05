@@ -342,6 +342,431 @@ CMakeFiles/alestelx.dir/lx/fdc765.cpp.obj: /home/claude/aleste-xi-bios/emulator/
   /usr/share/mingw-w64/include/vadefs.h \
   /usr/share/mingw-w64/include/wchar.h
 
+CMakeFiles/alestelx.dir/lx/gdbserver.cpp.obj: /home/claude/aleste-xi-bios/emulator/lx/gdbserver.cpp \
+  /home/claude/aleste-xi-bios/deps/z80ex/include/z80ex.h \
+  /home/claude/aleste-xi-bios/deps/z80ex/include/z80ex_common.h \
+  /home/claude/aleste-xi-bios/emulator/lx/debugger.h \
+  /home/claude/aleste-xi-bios/emulator/lx/fdc765.h \
+  /home/claude/aleste-xi-bios/emulator/lx/gdbserver.h \
+  /home/claude/aleste-xi-bios/emulator/lx/machine.h \
+  /home/claude/aleste-xi-bios/emulator/lx/tape.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/adxintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/ammintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/amxbf16intrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/amxcomplexintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/amxfp16intrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/amxint8intrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/amxtileintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx2intrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx5124fmapsintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx5124vnniwintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512bf16intrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512bf16vlintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512bitalgintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512bwintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512cdintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512dqintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512erintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512fintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512fp16intrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512fp16vlintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512ifmaintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512ifmavlintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512pfintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512vbmi2intrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512vbmi2vlintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512vbmiintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512vbmivlintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512vlbwintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512vldqintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512vlintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512vnniintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512vnnivlintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512vp2intersectintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512vp2intersectvlintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512vpopcntdqintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512vpopcntdqvlintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avxifmaintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avxintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avxneconvertintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avxvnniint8intrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avxvnniintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/bmi2intrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/bmiintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/array \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/backward/binders.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bit \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/algorithmfwd.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/alloc_traits.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/allocator.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/basic_string.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/basic_string.tcc \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/char_traits.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/charconv.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/chrono.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/concept_check.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/cpp_type_traits.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/cxxabi_forced.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/cxxabi_init_exception.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/deque.tcc \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/enable_special_members.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/erase_if.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/exception.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/exception_defines.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/exception_ptr.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/functexcept.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/functional_hash.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/hash_bytes.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/hashtable.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/hashtable_policy.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/invoke.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/localefwd.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/memory_resource.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/memoryfwd.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/move.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/nested_exception.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/new_allocator.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/node_handle.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/ostream_insert.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/parse_numbers.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/postypes.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/predefined_ops.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/ptr_traits.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/range_access.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/refwrap.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/requires_hosted.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/std_abs.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/std_function.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/std_mutex.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/std_thread.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_algo.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_algobase.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_bvector.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_construct.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_deque.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_function.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_heap.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_iterator.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_iterator_base_funcs.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_iterator_base_types.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_map.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_multimap.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_multiset.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_pair.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_set.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_tempbuf.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_tree.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_uninitialized.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_vector.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/string_view.tcc \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stringfwd.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/this_thread_sleep.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/uniform_int_dist.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/unique_lock.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/unique_ptr.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/unordered_map.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/uses_allocator.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/uses_allocator_args.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/utility.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/vector.tcc \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/cctype \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/cerrno \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/clocale \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/compare \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/cstddef \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/cstdint \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/cstdio \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/cstdlib \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/cstring \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/ctime \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/cwchar \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/debug/assertions.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/debug/debug.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/deque \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/exception \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/ext/aligned_buffer.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/ext/alloc_traits.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/ext/atomicity.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/ext/numeric_traits.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/ext/string_conversions.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/ext/type_traits.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/functional \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/initializer_list \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/iosfwd \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/limits \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/map \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/mutex \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/new \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/pstl/pstl_config.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/ratio \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/set \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/stdlib.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/string \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/string_view \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/thread \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/tuple \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/type_traits \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/typeinfo \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/unordered_map \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/vector \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/x86_64-w64-mingw32/bits/c++config.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/x86_64-w64-mingw32/bits/gthr.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/cetintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/cldemoteintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/clflushoptintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/clwbintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/clzerointrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/cmpccxaddintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/emmintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/enqcmdintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/f16cintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/fma4intrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/fmaintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/fxsrintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/gfniintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/hresetintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/ia32intrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/immintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/keylockerintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/limits.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/lwpintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/lzcntintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/mm3dnow.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/mm_malloc.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/mmintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/movdirintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/mwaitintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/mwaitxintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/pconfigintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/pkuintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/pmmintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/popcntintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/prfchiintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/prfchwintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/raointintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/rdseedintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/rtmintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/serializeintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/sgxintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/shaintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/smmintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/stdarg.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/stddef.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/stdint.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/syslimits.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/tbmintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/tmmintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/tsxldtrkintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/uintrintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/vaesintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/vpclmulqdqintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/waitpkgintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/wbnoinvdintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/wmmintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/x86gprintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/x86intrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/xmmintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/xopintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/xsavecintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/xsaveintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/xsaveoptintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/xsavesintrin.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/xtestintrin.h \
+  /usr/share/mingw-w64/include/_bsd_types.h \
+  /usr/share/mingw-w64/include/_mingw.h \
+  /usr/share/mingw-w64/include/_mingw_mac.h \
+  /usr/share/mingw-w64/include/_mingw_off_t.h \
+  /usr/share/mingw-w64/include/_mingw_secapi.h \
+  /usr/share/mingw-w64/include/_mingw_stat64.h \
+  /usr/share/mingw-w64/include/_mingw_stdarg.h \
+  /usr/share/mingw-w64/include/_mingw_unicode.h \
+  /usr/share/mingw-w64/include/_timeval.h \
+  /usr/share/mingw-w64/include/apiset.h \
+  /usr/share/mingw-w64/include/apisetcconv.h \
+  /usr/share/mingw-w64/include/basetsd.h \
+  /usr/share/mingw-w64/include/bcrypt.h \
+  /usr/share/mingw-w64/include/bemapiset.h \
+  /usr/share/mingw-w64/include/cderr.h \
+  /usr/share/mingw-w64/include/cguid.h \
+  /usr/share/mingw-w64/include/combaseapi.h \
+  /usr/share/mingw-w64/include/commdlg.h \
+  /usr/share/mingw-w64/include/concurrencysal.h \
+  /usr/share/mingw-w64/include/corecrt.h \
+  /usr/share/mingw-w64/include/corecrt_startup.h \
+  /usr/share/mingw-w64/include/corecrt_stdio_config.h \
+  /usr/share/mingw-w64/include/corecrt_wstdlib.h \
+  /usr/share/mingw-w64/include/crtdefs.h \
+  /usr/share/mingw-w64/include/ctype.h \
+  /usr/share/mingw-w64/include/datetimeapi.h \
+  /usr/share/mingw-w64/include/dde.h \
+  /usr/share/mingw-w64/include/ddeml.h \
+  /usr/share/mingw-w64/include/debugapi.h \
+  /usr/share/mingw-w64/include/dlgs.h \
+  /usr/share/mingw-w64/include/dpapi.h \
+  /usr/share/mingw-w64/include/driverspecs.h \
+  /usr/share/mingw-w64/include/errhandlingapi.h \
+  /usr/share/mingw-w64/include/errno.h \
+  /usr/share/mingw-w64/include/excpt.h \
+  /usr/share/mingw-w64/include/fibersapi.h \
+  /usr/share/mingw-w64/include/fileapi.h \
+  /usr/share/mingw-w64/include/fltwinerror.h \
+  /usr/share/mingw-w64/include/guiddef.h \
+  /usr/share/mingw-w64/include/handleapi.h \
+  /usr/share/mingw-w64/include/heapapi.h \
+  /usr/share/mingw-w64/include/imm.h \
+  /usr/share/mingw-w64/include/in6addr.h \
+  /usr/share/mingw-w64/include/inaddr.h \
+  /usr/share/mingw-w64/include/interlockedapi.h \
+  /usr/share/mingw-w64/include/ioapiset.h \
+  /usr/share/mingw-w64/include/jobapi.h \
+  /usr/share/mingw-w64/include/joystickapi.h \
+  /usr/share/mingw-w64/include/ktmtypes.h \
+  /usr/share/mingw-w64/include/libloaderapi.h \
+  /usr/share/mingw-w64/include/limits.h \
+  /usr/share/mingw-w64/include/locale.h \
+  /usr/share/mingw-w64/include/lzexpand.h \
+  /usr/share/mingw-w64/include/malloc.h \
+  /usr/share/mingw-w64/include/mciapi.h \
+  /usr/share/mingw-w64/include/mcx.h \
+  /usr/share/mingw-w64/include/memoryapi.h \
+  /usr/share/mingw-w64/include/minwinbase.h \
+  /usr/share/mingw-w64/include/minwindef.h \
+  /usr/share/mingw-w64/include/mmeapi.h \
+  /usr/share/mingw-w64/include/mmiscapi.h \
+  /usr/share/mingw-w64/include/mmiscapi2.h \
+  /usr/share/mingw-w64/include/mmsyscom.h \
+  /usr/share/mingw-w64/include/mmsystem.h \
+  /usr/share/mingw-w64/include/mstcpip.h \
+  /usr/share/mingw-w64/include/msxml.h \
+  /usr/share/mingw-w64/include/namedpipeapi.h \
+  /usr/share/mingw-w64/include/namespaceapi.h \
+  /usr/share/mingw-w64/include/nb30.h \
+  /usr/share/mingw-w64/include/ncrypt.h \
+  /usr/share/mingw-w64/include/oaidl.h \
+  /usr/share/mingw-w64/include/objbase.h \
+  /usr/share/mingw-w64/include/objidl.h \
+  /usr/share/mingw-w64/include/objidlbase.h \
+  /usr/share/mingw-w64/include/ole2.h \
+  /usr/share/mingw-w64/include/oleauto.h \
+  /usr/share/mingw-w64/include/oleidl.h \
+  /usr/share/mingw-w64/include/playsoundapi.h \
+  /usr/share/mingw-w64/include/poppack.h \
+  /usr/share/mingw-w64/include/process.h \
+  /usr/share/mingw-w64/include/processenv.h \
+  /usr/share/mingw-w64/include/processthreadsapi.h \
+  /usr/share/mingw-w64/include/processtopologyapi.h \
+  /usr/share/mingw-w64/include/profileapi.h \
+  /usr/share/mingw-w64/include/propidl.h \
+  /usr/share/mingw-w64/include/prsht.h \
+  /usr/share/mingw-w64/include/psdk_inc/_fd_types.h \
+  /usr/share/mingw-w64/include/psdk_inc/_ip_mreq1.h \
+  /usr/share/mingw-w64/include/psdk_inc/_ip_types.h \
+  /usr/share/mingw-w64/include/psdk_inc/_socket_types.h \
+  /usr/share/mingw-w64/include/psdk_inc/_ws1_undef.h \
+  /usr/share/mingw-w64/include/psdk_inc/_wsa_errnos.h \
+  /usr/share/mingw-w64/include/psdk_inc/_wsadata.h \
+  /usr/share/mingw-w64/include/psdk_inc/intrin-impl.h \
+  /usr/share/mingw-w64/include/pshpack1.h \
+  /usr/share/mingw-w64/include/pshpack2.h \
+  /usr/share/mingw-w64/include/pshpack4.h \
+  /usr/share/mingw-w64/include/pshpack8.h \
+  /usr/share/mingw-w64/include/pthread.h \
+  /usr/share/mingw-w64/include/pthread_compat.h \
+  /usr/share/mingw-w64/include/pthread_signal.h \
+  /usr/share/mingw-w64/include/pthread_time.h \
+  /usr/share/mingw-w64/include/pthread_unistd.h \
+  /usr/share/mingw-w64/include/qos.h \
+  /usr/share/mingw-w64/include/realtimeapiset.h \
+  /usr/share/mingw-w64/include/reason.h \
+  /usr/share/mingw-w64/include/rpc.h \
+  /usr/share/mingw-w64/include/rpcasync.h \
+  /usr/share/mingw-w64/include/rpcdce.h \
+  /usr/share/mingw-w64/include/rpcdcep.h \
+  /usr/share/mingw-w64/include/rpcndr.h \
+  /usr/share/mingw-w64/include/rpcnsi.h \
+  /usr/share/mingw-w64/include/rpcnsip.h \
+  /usr/share/mingw-w64/include/rpcnterr.h \
+  /usr/share/mingw-w64/include/rpcsal.h \
+  /usr/share/mingw-w64/include/sal.h \
+  /usr/share/mingw-w64/include/sdkddkver.h \
+  /usr/share/mingw-w64/include/sdks/_mingw_ddk.h \
+  /usr/share/mingw-w64/include/sec_api/stdio_s.h \
+  /usr/share/mingw-w64/include/sec_api/stdlib_s.h \
+  /usr/share/mingw-w64/include/sec_api/stralign_s.h \
+  /usr/share/mingw-w64/include/sec_api/string_s.h \
+  /usr/share/mingw-w64/include/sec_api/sys/timeb_s.h \
+  /usr/share/mingw-w64/include/sec_api/wchar_s.h \
+  /usr/share/mingw-w64/include/securityappcontainer.h \
+  /usr/share/mingw-w64/include/securitybaseapi.h \
+  /usr/share/mingw-w64/include/servprov.h \
+  /usr/share/mingw-w64/include/shellapi.h \
+  /usr/share/mingw-w64/include/signal.h \
+  /usr/share/mingw-w64/include/specstrings.h \
+  /usr/share/mingw-w64/include/stdarg.h \
+  /usr/share/mingw-w64/include/stddef.h \
+  /usr/share/mingw-w64/include/stdint.h \
+  /usr/share/mingw-w64/include/stdio.h \
+  /usr/share/mingw-w64/include/stdlib.h \
+  /usr/share/mingw-w64/include/stralign.h \
+  /usr/share/mingw-w64/include/string.h \
+  /usr/share/mingw-w64/include/stringapiset.h \
+  /usr/share/mingw-w64/include/swprintf.inl \
+  /usr/share/mingw-w64/include/synchapi.h \
+  /usr/share/mingw-w64/include/sys/timeb.h \
+  /usr/share/mingw-w64/include/sys/types.h \
+  /usr/share/mingw-w64/include/sysinfoapi.h \
+  /usr/share/mingw-w64/include/systemtopologyapi.h \
+  /usr/share/mingw-w64/include/threadpoolapiset.h \
+  /usr/share/mingw-w64/include/threadpoollegacyapiset.h \
+  /usr/share/mingw-w64/include/time.h \
+  /usr/share/mingw-w64/include/timeapi.h \
+  /usr/share/mingw-w64/include/timezoneapi.h \
+  /usr/share/mingw-w64/include/tvout.h \
+  /usr/share/mingw-w64/include/unknwn.h \
+  /usr/share/mingw-w64/include/unknwnbase.h \
+  /usr/share/mingw-w64/include/urlmon.h \
+  /usr/share/mingw-w64/include/utilapiset.h \
+  /usr/share/mingw-w64/include/vadefs.h \
+  /usr/share/mingw-w64/include/virtdisk.h \
+  /usr/share/mingw-w64/include/wchar.h \
+  /usr/share/mingw-w64/include/winapifamily.h \
+  /usr/share/mingw-w64/include/winbase.h \
+  /usr/share/mingw-w64/include/wincon.h \
+  /usr/share/mingw-w64/include/wincrypt.h \
+  /usr/share/mingw-w64/include/windef.h \
+  /usr/share/mingw-w64/include/windows.h \
+  /usr/share/mingw-w64/include/winefs.h \
+  /usr/share/mingw-w64/include/winerror.h \
+  /usr/share/mingw-w64/include/wingdi.h \
+  /usr/share/mingw-w64/include/winioctl.h \
+  /usr/share/mingw-w64/include/winnetwk.h \
+  /usr/share/mingw-w64/include/winnls.h \
+  /usr/share/mingw-w64/include/winnt.h \
+  /usr/share/mingw-w64/include/winperf.h \
+  /usr/share/mingw-w64/include/winreg.h \
+  /usr/share/mingw-w64/include/winscard.h \
+  /usr/share/mingw-w64/include/winsmcrd.h \
+  /usr/share/mingw-w64/include/winsock.h \
+  /usr/share/mingw-w64/include/winsock2.h \
+  /usr/share/mingw-w64/include/winspool.h \
+  /usr/share/mingw-w64/include/winsvc.h \
+  /usr/share/mingw-w64/include/winuser.h \
+  /usr/share/mingw-w64/include/winver.h \
+  /usr/share/mingw-w64/include/wnnc.h \
+  /usr/share/mingw-w64/include/wow64apiset.h \
+  /usr/share/mingw-w64/include/ws2def.h \
+  /usr/share/mingw-w64/include/ws2ipdef.h \
+  /usr/share/mingw-w64/include/ws2tcpip.h \
+  /usr/share/mingw-w64/include/wtypes.h \
+  /usr/share/mingw-w64/include/wtypesbase.h
+
 CMakeFiles/alestelx.dir/lx/legacy.cpp.obj: /home/claude/aleste-xi-bios/emulator/lx/legacy.cpp \
   /home/claude/aleste-xi-bios/deps/z80ex/include/z80ex.h \
   /home/claude/aleste-xi-bios/deps/z80ex/include/z80ex_common.h \
@@ -632,6 +1057,7 @@ CMakeFiles/alestelx.dir/lx/main_lx.cpp.obj: /home/claude/aleste-xi-bios/emulator
   /home/claude/aleste-xi-bios/deps/z80ex/include/z80ex_common.h \
   /home/claude/aleste-xi-bios/emulator/lx/debugger.h \
   /home/claude/aleste-xi-bios/emulator/lx/fdc765.h \
+  /home/claude/aleste-xi-bios/emulator/lx/gdbserver.h \
   /home/claude/aleste-xi-bios/emulator/lx/machine.h \
   /home/claude/aleste-xi-bios/emulator/lx/tape.h \
   /tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL.h \
@@ -805,6 +1231,7 @@ CMakeFiles/alestelx.dir/lx/main_lx.cpp.obj: /home/claude/aleste-xi-bios/emulator
   /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/vector.tcc \
   /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/cctype \
   /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/cerrno \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/chrono \
   /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/clocale \
   /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/compare \
   /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/cstddef \
@@ -1212,641 +1639,319 @@ CMakeFiles/alestelx.dir/lx/tape.cpp.obj: /home/claude/aleste-xi-bios/emulator/lx
 
 /home/claude/aleste-xi-bios/emulator/lx/tape.cpp:
 
-/usr/share/mingw-w64/include/wow64apiset.h:
-
-/usr/share/mingw-w64/include/winspool.h:
-
-/usr/share/mingw-w64/include/winsock.h:
-
-/usr/share/mingw-w64/include/winsmcrd.h:
-
-/usr/share/mingw-w64/include/winscard.h:
-
-/usr/share/mingw-w64/include/winreg.h:
-
-/usr/share/mingw-w64/include/wingdi.h:
-
-/usr/share/mingw-w64/include/windef.h:
-
-/usr/share/mingw-w64/include/winioctl.h:
-
-/usr/share/mingw-w64/include/wincrypt.h:
-
-/usr/share/mingw-w64/include/winbase.h:
-
-/usr/share/mingw-w64/include/winapifamily.h:
-
-/usr/share/mingw-w64/include/unknwn.h:
-
-/usr/share/mingw-w64/include/timeapi.h:
-
-/usr/share/mingw-w64/include/sysinfoapi.h:
-
-/usr/share/mingw-w64/include/synchapi.h:
-
-/usr/share/mingw-w64/include/stringapiset.h:
-
-/usr/share/mingw-w64/include/utilapiset.h:
-
-/usr/share/mingw-w64/include/stdarg.h:
-
-/usr/share/mingw-w64/include/specstrings.h:
-
-/usr/share/mingw-w64/include/shellapi.h:
-
-/usr/share/mingw-w64/include/setjmp.h:
-
-/usr/share/mingw-w64/include/securitybaseapi.h:
-
-/usr/share/mingw-w64/include/sdkddkver.h:
-
-/usr/share/mingw-w64/include/rpcnterr.h:
-
-/usr/share/mingw-w64/include/stralign.h:
-
-/usr/share/mingw-w64/include/rpcnsip.h:
-
-/usr/share/mingw-w64/include/reason.h:
-
-/usr/share/mingw-w64/include/realtimeapiset.h:
-
-/usr/share/mingw-w64/include/pshpack4.h:
-
-/usr/share/mingw-w64/include/psdk_inc/_wsadata.h:
-
-/usr/share/mingw-w64/include/psdk_inc/_ip_types.h:
-
-/usr/share/mingw-w64/include/psdk_inc/_ip_mreq1.h:
-
-/usr/share/mingw-w64/include/wtypes.h:
-
-/usr/share/mingw-w64/include/prsht.h:
-
-/usr/share/mingw-w64/include/propidl.h:
-
-/usr/share/mingw-w64/include/processenv.h:
-
-/usr/share/mingw-w64/include/playsoundapi.h:
-
-/usr/share/mingw-w64/include/oleidl.h:
-
-/usr/share/mingw-w64/include/oleauto.h:
-
-/usr/share/mingw-w64/include/objidlbase.h:
-
-/usr/share/mingw-w64/include/oaidl.h:
-
-/usr/share/mingw-w64/include/namespaceapi.h:
-
-/usr/share/mingw-w64/include/mmsystem.h:
-
-/usr/share/mingw-w64/include/mmeapi.h:
-
-/usr/share/mingw-w64/include/mciapi.h:
-
-/usr/share/mingw-w64/include/lzexpand.h:
-
-/usr/share/mingw-w64/include/libloaderapi.h:
-
-/usr/share/mingw-w64/include/ktmtypes.h:
-
-/usr/share/mingw-w64/include/joystickapi.h:
-
-/usr/share/mingw-w64/include/jobapi.h:
-
-/usr/share/mingw-w64/include/interlockedapi.h:
-
-/usr/share/mingw-w64/include/heapapi.h:
-
-/usr/share/mingw-w64/include/fltwinerror.h:
-
-/usr/share/mingw-w64/include/fibersapi.h:
-
-/usr/share/mingw-w64/include/excpt.h:
-
-/usr/share/mingw-w64/include/dpapi.h:
-
-/usr/share/mingw-w64/include/debugapi.h:
-
-/usr/share/mingw-w64/include/winsvc.h:
-
-/usr/share/mingw-w64/include/psdk_inc/intrin-impl.h:
-
-/usr/share/mingw-w64/include/datetimeapi.h:
-
-/usr/share/mingw-w64/include/commdlg.h:
-
-/usr/share/mingw-w64/include/combaseapi.h:
-
-/usr/share/mingw-w64/include/cguid.h:
-
-/usr/share/mingw-w64/include/bemapiset.h:
-
-/usr/share/mingw-w64/include/bcrypt.h:
-
-/usr/share/mingw-w64/include/apisetcconv.h:
-
-/usr/share/mingw-w64/include/apiset.h:
-
-/usr/share/mingw-w64/include/_mingw_unicode.h:
-
-/usr/share/mingw-w64/include/psdk_inc/_xmitfile.h:
-
-/usr/share/mingw-w64/include/_mingw_stdarg.h:
-
-/usr/share/mingw-w64/include/_bsd_types.h:
-
-/usr/share/mingw-w64/include/nb30.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/xtestintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/xsavesintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/xsaveoptintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/xsaveintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/xsavecintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/xmmintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/x86gprintrin.h:
-
-/usr/share/mingw-w64/include/winnls.h:
-
-/usr/share/mingw-w64/include/ioapiset.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/wmmintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/vaesintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/tsxldtrkintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/vpclmulqdqintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/stdarg.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/shaintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/rtmintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/rdseedintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/prfchiintrin.h:
-
-/usr/share/mingw-w64/include/winsdkver.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/popcntintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/pmmintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/pkuintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/mwaitxintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/movdirintrin.h:
-
-/usr/share/mingw-w64/include/processtopologyapi.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/lwpintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/tbmintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/keylockerintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/ia32intrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/fma4intrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/f16cintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/emmintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/cldemoteintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/cetintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avxintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/uintrintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avxifmaintrin.h:
-
-/usr/share/mingw-w64/include/ole2.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512vpopcntdqvlintrin.h:
-
-/usr/share/mingw-w64/include/rpcdce.h:
-
-/usr/share/mingw-w64/include/dlgs.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/hresetintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512vpopcntdqintrin.h:
-
-/usr/share/mingw-w64/include/errhandlingapi.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512vp2intersectintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/clflushoptintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512vnnivlintrin.h:
-
-/usr/share/mingw-w64/include/winnt.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512vnniintrin.h:
-
-/usr/share/mingw-w64/include/minwinbase.h:
-
-/usr/share/mingw-w64/include/memoryapi.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/cpuid.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/clzerointrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512vldqintrin.h:
-
-/usr/share/mingw-w64/include/sec_api/stralign_s.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512vlbwintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512vbmivlintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512vbmi2vlintrin.h:
-
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512pfintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512ifmaintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/x86_64-w64-mingw32/bits/gthr-default.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512erintrin.h:
 
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512cdintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512bitalgintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512bf16vlintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx5124vnniwintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx5124fmapsintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx2intrin.h:
-
-/usr/share/mingw-w64/include/psdk_inc/_wsa_errnos.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512dqintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/amxtileintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/amxint8intrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/amxfp16intrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/amxcomplexintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/amxbf16intrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/adxintrin.h:
-
-/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/close_code.h:
-
-/usr/share/mingw-w64/include/timezoneapi.h:
-
-/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/begin_code.h:
-
-/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_version.h:
-
-/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_touch.h:
-
-/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_surface.h:
-
-/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_stdinc.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/serializeintrin.h:
-
-/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_shape.h:
-
-/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_scancode.h:
-
-/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_render.h:
-
-/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_quit.h:
-
-/usr/share/mingw-w64/include/poppack.h:
-
-/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_rwops.h:
-
-/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_power.h:
-
-/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_platform.h:
-
-/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_mutex.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/raointintrin.h:
-
-/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_misc.h:
-
-/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_metal.h:
-
-/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_messagebox.h:
-
-/usr/share/mingw-w64/include/sal.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512vlintrin.h:
-
-/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_locale.h:
-
-/usr/share/mingw-w64/include/_mingw_stat64.h:
-
-/usr/share/mingw-w64/include/winver.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/vector.tcc:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512fintrin.h:
-
-/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_endian.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/uses_allocator.h:
-
-/usr/share/mingw-w64/include/threadpoollegacyapiset.h:
-
-/usr/share/mingw-w64/include/processthreadsapi.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/prfchwintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/memory_resource.h:
-
-/usr/share/mingw-w64/include/rpcasync.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/unique_lock.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/this_thread_sleep.h:
-
-/usr/share/mingw-w64/include/winefs.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_vector.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512bf16intrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/std_thread.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/hashtable.h:
-
-/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_thread.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/ctime:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_tree.h:
-
-/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_mouse.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/vector:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_stack.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_set.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_pair.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/ext/numeric_traits.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/x86_64-w64-mingw32/bits/os_defines.h:
-
-/usr/share/mingw-w64/include/inaddr.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_multimap.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/clocale:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/enqcmdintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/ext/concurrence.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_construct.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/sstream:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stringfwd.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/regex_executor.tcc:
-
-/usr/share/mingw-w64/include/objidl.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/istream:
-
-/usr/share/mingw-w64/include/threadpoolapiset.h:
-
-/usr/share/mingw-w64/include/limits.h:
-
-/usr/share/mingw-w64/include/mcx.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/std_mutex.h:
-
-/usr/share/mingw-w64/include/pshpack1.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/cstring:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/cxxabi_forced.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/std_abs.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/mwaitintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/cxxabi_init_exception.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/cwchar:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/x86_64-w64-mingw32/bits/c++config.h:
-
-/home/claude/aleste-xi-bios/deps/z80ex/include/z80ex_common.h:
-
-/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_timer.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/algorithmfwd.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/sstream.tcc:
-
-/usr/share/mingw-w64/include/rpcsal.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/gfniintrin.h:
-
-/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_main.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/requires_hosted.h:
-
-/usr/share/mingw-w64/include/ncrypt.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/regex_compiler.tcc:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/compare:
-
-/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_gamecontroller.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/regex_executor.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/tmmintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/sgxintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/chrono.h:
-
-/usr/share/mingw-w64/include/guiddef.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/regex_constants.h:
-
-/usr/share/mingw-w64/include/winerror.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/regex_compiler.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/cctype:
-
-/usr/share/mingw-w64/include/pthread_signal.h:
-
-/usr/share/mingw-w64/include/sec_api/sys/timeb_s.h:
-
-/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_clipboard.h:
-
-/usr/share/mingw-w64/include/winnetwk.h:
-
-/usr/share/mingw-w64/include/driverspecs.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/syslimits.h:
-
-/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_video.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/exception:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/unordered_map:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/locale_conv.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/initializer_list:
-
-/usr/share/mingw-w64/include/ddeml.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/bmi2intrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/refwrap.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_tempbuf.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bitset:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/mm3dnow.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/ptr_traits.h:
-
-/usr/share/mingw-w64/include/sec_api/string_s.h:
-
-/usr/share/mingw-w64/include/securityappcontainer.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/wbnoinvdintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_function.h:
-
-/usr/share/mingw-w64/include/vadefs.h:
-
-/usr/share/mingw-w64/include/intrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/utility.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/memoryfwd.h:
-
-/usr/share/mingw-w64/include/msxml.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/basic_ios.h:
-
-/home/claude/aleste-xi-bios/deps/z80ex/include/z80ex.h:
-
-/usr/share/mingw-w64/include/winuser.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/new_allocator.h:
-
-/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_events.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/basic_string.tcc:
-
-/usr/share/mingw-w64/include/malloc.h:
-
-/usr/share/mingw-w64/include/concurrencysal.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/mmintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/nested_exception.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/regex_error.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/move.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_algobase.h:
-
-/home/claude/aleste-xi-bios/emulator/lx/debugger.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/deque:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/regex_automaton.h:
-
-/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_blendmode.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/pconfigintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/basic_ios.tcc:
-
-/usr/share/mingw-w64/include/psdk_inc/_socket_types.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/ratio:
-
-/home/claude/aleste-xi-bios/emulator/lx/debugger.cpp:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/fxsrintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/x86_64-w64-mingw32/bits/atomic_word.h:
-
-/home/claude/aleste-xi-bios/emulator/lx/tape.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/basic_string.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_multiset.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/lzcntintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/cmpccxaddintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_heap.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/cstdlib:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/exception.h:
-
-/usr/share/mingw-w64/include/imm.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_bvector.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/ext/atomicity.h:
-
-/usr/share/mingw-w64/include/rpc.h:
-
-/home/claude/aleste-xi-bios/deps/z80ex/include/z80ex_dasm.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512vp2intersectvlintrin.h:
-
-/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/invoke.h:
-
-/usr/share/mingw-w64/include/urlmon.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/codecvt.h:
-
-/home/claude/aleste-xi-bios/emulator/lx/fdc765.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512vbmi2intrin.h:
+/usr/share/mingw-w64/include/sys/timeb.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512ifmavlintrin.h:
 
-/usr/share/mingw-w64/include/sys/timeb.h:
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512dqintrin.h:
 
-/usr/share/mingw-w64/include/rpcndr.h:
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512bf16intrin.h:
 
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/unique_ptr.h:
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/amxfp16intrin.h:
+
+/usr/share/mingw-w64/include/ws2ipdef.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/amxbf16intrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512bwintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/cerrno:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/ammintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_iterator_base_types.h:
+
+/usr/share/mingw-w64/include/stdio.h:
+
+/usr/share/mingw-w64/include/stddef.h:
+
+/usr/share/mingw-w64/include/sec_api/wchar_s.h:
+
+/usr/share/mingw-w64/include/sec_api/stdlib_s.h:
+
+/usr/share/mingw-w64/include/objbase.h:
+
+/home/claude/aleste-xi-bios/emulator/lx/kbdmatrix.inc:
+
+/usr/share/mingw-w64/include/pthread_time.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/x86_64-w64-mingw32/bits/messages_members.h:
+
+/usr/share/mingw-w64/include/pthread.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/ios:
+
+/usr/share/mingw-w64/include/locale.h:
+
+/usr/share/mingw-w64/include/wctype.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/amxtileintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/regex.h:
+
+/usr/share/mingw-w64/include/errno.h:
+
+/usr/share/mingw-w64/include/winperf.h:
+
+/usr/share/mingw-w64/include/ctype.h:
+
+/usr/share/mingw-w64/include/corecrt.h:
+
+/usr/share/mingw-w64/include/pshpack2.h:
+
+/usr/share/mingw-w64/include/string.h:
+
+/usr/share/mingw-w64/include/_timeval.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/uses_allocator_args.h:
+
+/usr/share/mingw-w64/include/_mingw_off_t.h:
+
+/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_audio.h:
+
+/usr/share/mingw-w64/include/_mingw.h:
+
+/usr/share/mingw-w64/include/stdint.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/stdint.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/std_function.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/smmintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/mm_malloc.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avxvnniint8intrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/x86_64-w64-mingw32/bits/time_members.h:
+
+/usr/share/mingw-w64/include/signal.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/x86_64-w64-mingw32/bits/ctype_base.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/x86_64-w64-mingw32/bits/c++locale.h:
+
+/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_mutex.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/x86_64-w64-mingw32/bits/c++allocator.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/regex_automaton.tcc:
+
+/usr/share/mingw-w64/include/time.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/typeinfo:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/thread:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/string_view:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/stdexcept:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/cstdint:
+
+/usr/share/mingw-w64/include/_mingw_secapi.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/unordered_map.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_algo.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/amxint8intrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/uniform_int_dist.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/mutex:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/ostream:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/limits:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/iostream:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/range_access.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/iosfwd:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/ext/alloc_traits.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512fp16intrin.h:
+
+/usr/share/mingw-w64/include/pthread_unistd.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_iterator.h:
+
+/usr/share/mingw-w64/include/rpcdcep.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/functional:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/ext/type_traits.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/ext/aligned_buffer.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/enable_special_members.h:
+
+/usr/share/mingw-w64/include/pthread_compat.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/cwctype:
+
+/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_sensor.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/ostream_insert.h:
+
+/usr/share/mingw-w64/include/systemtopologyapi.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_iterator_base_funcs.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/stdlib.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/x86intrin.h:
+
+/usr/share/mingw-w64/include/windows.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512bitalgintrin.h:
+
+/usr/share/mingw-w64/include/handleapi.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/streambuf_iterator.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/predefined_ops.h:
+
+/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_rect.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/localefwd.h:
+
+/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_config.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/postypes.h:
+
+/usr/share/mingw-w64/include/pshpack8.h:
+
+/usr/share/mingw-w64/include/_mingw_mac.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/x86_64-w64-mingw32/bits/gthr.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_map.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/locale_facets.tcc:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/ostream.tcc:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/exception_defines.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/locale_classes.tcc:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/ios_base.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/cstddef:
+
+/usr/share/mingw-w64/include/dde.h:
+
+/usr/share/mingw-w64/include/wincon.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/pstl/pstl_config.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/hashtable_policy.h:
+
+/usr/share/mingw-w64/include/wnnc.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/shared_ptr.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/type_traits:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/concept_check.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/limits.h:
+
+/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_system.h:
+
+/usr/share/mingw-w64/include/fileapi.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512vbmi2vlintrin.h:
+
+/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_pixels.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/erase_if.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/allocated_ptr.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/immintrin.h:
+
+/usr/share/mingw-w64/include/tvout.h:
+
+/home/claude/aleste-xi-bios/emulator/lx/machine.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/new:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/fmaintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_uninitialized.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/charconv.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/locale_classes.h:
+
+/usr/share/mingw-w64/include/corecrt_startup.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/regex_scanner.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/cpp_type_traits.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/streambuf.tcc:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/cstdio:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/string:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/functexcept.h:
+
+/home/claude/aleste-xi-bios/emulator/lx/fdc765.cpp:
+
+/usr/share/mingw-w64/include/basetsd.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bit:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/regex.tcc:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/deque.tcc:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/backward/binders.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/locale_facets_nonio.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/alloc_traits.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx5124fmapsintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/regex_scanner.tcc:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/locale_facets.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/shared_ptr_base.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/xopintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/debug/assertions.h:
+
+/usr/share/mingw-w64/include/unknwnbase.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/exception_ptr.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_deque.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/waitpkgintrin.h:
+
+/usr/share/mingw-w64/include/namedpipeapi.h:
+
+/usr/share/mingw-w64/include/stdlib.h:
 
 /usr/share/mingw-w64/include/mmsyscom.h:
 
@@ -1854,420 +1959,764 @@ CMakeFiles/alestelx.dir/lx/tape.cpp.obj: /home/claude/aleste-xi-bios/emulator/lx
 
 /tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_joystick.h:
 
-/usr/share/mingw-w64/include/crtdefs.h:
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/parse_numbers.h:
 
-/usr/share/mingw-w64/include/stdlib.h:
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/unique_ptr.h:
 
-/usr/share/mingw-w64/include/namedpipeapi.h:
+/usr/share/mingw-w64/include/rpcndr.h:
 
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/waitpkgintrin.h:
+/home/claude/aleste-xi-bios/emulator/lx/fdc765.h:
 
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_deque.h:
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/codecvt.h:
 
-/home/claude/aleste-xi-bios/emulator/lx/machine.cpp:
+/usr/share/mingw-w64/include/urlmon.h:
 
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/exception_ptr.h:
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/invoke.h:
 
-/usr/share/mingw-w64/include/unknwnbase.h:
+/home/claude/aleste-xi-bios/deps/z80ex/include/z80ex_dasm.h:
 
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/xopintrin.h:
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512fintrin.h:
 
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h:
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/ext/atomicity.h:
 
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/shared_ptr_base.h:
+/usr/share/mingw-w64/include/sys/types.h:
 
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/locale_facets.h:
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_bvector.h:
 
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/regex_scanner.tcc:
+/usr/share/mingw-w64/include/imm.h:
 
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/allocator.h:
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/cstdlib:
 
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/ammintrin.h:
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/cmpccxaddintrin.h:
 
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_iterator_base_types.h:
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/lzcntintrin.h:
 
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/alloc_traits.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/locale_facets_nonio.h:
-
-/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_error.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512bwintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/cerrno:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/backward/binders.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/deque.tcc:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/regex.tcc:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bit:
-
-/usr/share/mingw-w64/include/basetsd.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/streambuf:
-
-/home/claude/aleste-xi-bios/emulator/lx/fdc765.cpp:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/functexcept.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/string:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/streambuf.tcc:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/regex_scanner.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/locale_classes.h:
-
-/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_atomic.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/charconv.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/debug/assertions.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_uninitialized.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/fmaintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/new:
-
-/home/claude/aleste-xi-bios/emulator/lx/machine.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/algorithm:
-
-/usr/share/mingw-w64/include/tvout.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/immintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/allocated_ptr.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/erase_if.h:
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/basic_string.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/functional_hash.h:
 
-/usr/share/mingw-w64/include/fileapi.h:
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/stddef.h:
 
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/hash_bytes.h:
+/usr/share/mingw-w64/include/virtdisk.h:
 
-/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_system.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/debug/debug.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/limits.h:
+/home/claude/aleste-xi-bios/emulator/lx/gdbserver.cpp:
 
 /usr/share/mingw-w64/include/wtypesbase.h:
 
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/cstdio:
+/home/claude/aleste-xi-bios/emulator/lx/tape.h:
 
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/type_traits:
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/x86_64-w64-mingw32/bits/atomic_word.h:
 
-/usr/share/mingw-w64/include/wnnc.h:
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/fxsrintrin.h:
 
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/hashtable_policy.h:
+/home/claude/aleste-xi-bios/emulator/lx/debugger.cpp:
 
-/usr/share/mingw-w64/include/wincon.h:
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/ratio:
 
-/usr/share/mingw-w64/include/dde.h:
+/usr/share/mingw-w64/include/psdk_inc/_socket_types.h:
 
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/cstddef:
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/basic_ios.tcc:
 
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/ios_base.h:
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/std_thread.h:
 
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/locale_classes.tcc:
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/pconfigintrin.h:
 
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512vbmiintrin.h:
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/deque:
 
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/exception_defines.h:
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_algobase.h:
 
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/clwbintrin.h:
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/regex:
 
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/ostream.tcc:
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/move.h:
 
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/locale:
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/regex_error.h:
 
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/tuple:
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/nested_exception.h:
 
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/pstl/execution_defs.h:
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/mmintrin.h:
 
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/locale_facets.tcc:
+/usr/share/mingw-w64/include/malloc.h:
 
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_map.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/x86_64-w64-mingw32/bits/gthr.h:
-
-/usr/share/mingw-w64/include/pshpack8.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/postypes.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/locale_facets_nonio.tcc:
-
-/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_config.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/localefwd.h:
-
-/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_rect.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/predefined_ops.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/streambuf_iterator.h:
-
-/usr/share/mingw-w64/include/handleapi.h:
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/basic_string.tcc:
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/node_handle.h:
 
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/cpp_type_traits.h:
+/home/claude/aleste-xi-bios/deps/z80ex/include/z80ex.h:
+
+/usr/share/mingw-w64/include/ws2tcpip.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/basic_ios.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/memoryfwd.h:
+
+/usr/share/mingw-w64/include/vadefs.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_function.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/wbnoinvdintrin.h:
+
+/usr/share/mingw-w64/include/securityappcontainer.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512bf16vlintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/ptr_traits.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/mm3dnow.h:
+
+/usr/share/mingw-w64/include/winuser.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/locale:
+
+/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_events.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bitset:
+
+/usr/share/mingw-w64/include/crtdefs.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_tempbuf.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/refwrap.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/bmi2intrin.h:
+
+/usr/share/mingw-w64/include/ddeml.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/initializer_list:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/locale_conv.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512cdintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/unordered_map:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/x86_64-w64-mingw32/bits/error_constants.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx5124vnniwintrin.h:
+
+/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_video.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/regex_automaton.h:
+
+/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_blendmode.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/syslimits.h:
+
+/usr/share/mingw-w64/include/driverspecs.h:
+
+/usr/share/mingw-w64/include/winnetwk.h:
+
+/usr/share/mingw-w64/include/pthread_signal.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/regex_compiler.h:
+
+/usr/share/mingw-w64/include/winerror.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/regex_constants.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/tuple:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/chrono.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/map:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/sgxintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/tmmintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/regex_executor.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/regex_compiler.tcc:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx2intrin.h:
+
+/usr/share/mingw-w64/include/ncrypt.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/requires_hosted.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/gfniintrin.h:
+
+/usr/share/mingw-w64/include/rpcsal.h:
+
+/usr/share/mingw-w64/include/ws2def.h:
+
+/usr/share/mingw-w64/include/minwindef.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/amxcomplexintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/algorithmfwd.h:
+
+/usr/share/mingw-w64/include/sec_api/sys/timeb_s.h:
+
+/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_timer.h:
+
+/home/claude/aleste-xi-bios/deps/z80ex/include/z80ex_common.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/x86_64-w64-mingw32/bits/c++config.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/cwchar:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/cxxabi_init_exception.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/mwaitintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/std_abs.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/cxxabi_forced.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/array:
+
+/usr/share/mingw-w64/include/rpc.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/cstring:
+
+/usr/share/mingw-w64/include/pshpack1.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/std_mutex.h:
+
+/usr/share/mingw-w64/include/mcx.h:
+
+/home/claude/aleste-xi-bios/emulator/lx/gdbserver.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/mwaitxintrin.h:
+
+/usr/share/mingw-w64/include/limits.h:
+
+/home/claude/aleste-xi-bios/emulator/lx/main_lx.cpp:
+
+/usr/share/mingw-w64/include/threadpoolapiset.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/istream:
+
+/usr/share/mingw-w64/include/objidl.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/regex_executor.tcc:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stringfwd.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/sstream:
 
 /usr/share/mingw-w64/include/corecrt_wstdlib.h:
 
 /tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_keyboard.h:
 
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/istream.tcc:
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_construct.h:
 
-/usr/share/mingw-w64/include/windows.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/parse_numbers.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/x86intrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/stdlib.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_iterator_base_funcs.h:
-
-/usr/share/mingw-w64/include/systemtopologyapi.h:
-
-/usr/share/mingw-w64/include/_mingw_mac.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/string_view.tcc:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/ostream_insert.h:
-
-/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_sensor.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/cwctype:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/enable_special_members.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/ext/aligned_buffer.h:
-
-/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_keycode.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/ext/string_conversions.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/ext/type_traits.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/functional:
-
-/usr/share/mingw-w64/include/rpcdcep.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/bmiintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512fp16vlintrin.h:
-
-/usr/share/mingw-w64/include/pthread_compat.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512fp16intrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_iterator.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/ext/alloc_traits.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/iosfwd:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avxvnniintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/range_access.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/iostream:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/limits:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/array:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/map:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/mutex:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/uniform_int_dist.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/ostream:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_algo.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/pstl/pstl_config.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/unordered_map.h:
-
-/usr/share/mingw-w64/include/_mingw_secapi.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/regex:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/cstdint:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/set:
-
-/usr/share/mingw-w64/include/wchar.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/stdexcept:
-
-/usr/share/mingw-w64/include/rpcnsi.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/pstl/glue_algorithm_defs.h:
-
-/usr/share/mingw-w64/include/virtdisk.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/stddef.h:
-
-/usr/share/mingw-w64/include/sec_api/stdio_s.h:
-
-/home/claude/aleste-xi-bios/emulator/lx/main_lx.cpp:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/string_view:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/thread:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/typeinfo:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/regex_automaton.tcc:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/x86_64-w64-mingw32/bits/c++allocator.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/x86_64-w64-mingw32/bits/c++locale.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/x86_64-w64-mingw32/bits/ctype_base.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h:
-
-/usr/share/mingw-w64/include/mmiscapi.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/concept_check.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/x86_64-w64-mingw32/bits/error_constants.h:
-
-/usr/share/mingw-w64/include/signal.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512ifmaintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/x86_64-w64-mingw32/bits/gthr-default.h:
-
-/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_haptic.h:
-
-/usr/share/mingw-w64/include/cderr.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/x86_64-w64-mingw32/bits/time_members.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avxvnniint8intrin.h:
-
-/usr/share/mingw-w64/include/time.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/mm_malloc.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/smmintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/std_function.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/system_error:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/stdint.h:
-
-/usr/share/mingw-w64/include/stdint.h:
-
-/usr/share/mingw-w64/include/_mingw.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/uses_allocator_args.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/stack:
-
-/usr/share/mingw-w64/include/_timeval.h:
-
-/usr/share/mingw-w64/include/string.h:
-
-/usr/share/mingw-w64/include/pshpack2.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/shared_ptr.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/char_traits.h:
-
-/usr/share/mingw-w64/include/corecrt.h:
-
-/usr/share/mingw-w64/include/corecrt_startup.h:
-
-/usr/share/mingw-w64/include/corecrt_stdio_config.h:
-
-/usr/share/mingw-w64/include/ctype.h:
-
-/usr/share/mingw-w64/include/winperf.h:
-
-/usr/share/mingw-w64/include/errno.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/regex.h:
-
-/usr/share/mingw-w64/include/wctype.h:
-
-/usr/share/mingw-w64/include/locale.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avxneconvertintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/ios:
-
-/usr/share/mingw-w64/include/process.h:
-
-/usr/share/mingw-w64/include/pthread.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/x86_64-w64-mingw32/bits/messages_members.h:
-
-/usr/share/mingw-w64/include/pthread_time.h:
-
-/usr/share/mingw-w64/include/pthread_unistd.h:
-
-/home/claude/aleste-xi-bios/emulator/lx/kbdmatrix.inc:
-
-/usr/share/mingw-w64/include/sdks/_mingw_ddk.h:
-
-/usr/share/mingw-w64/include/objbase.h:
-
-/usr/share/mingw-w64/include/sec_api/stdlib_s.h:
-
-/usr/share/mingw-w64/include/sec_api/wchar_s.h:
-
-/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_pixels.h:
-
-/usr/share/mingw-w64/include/stddef.h:
-
-/usr/share/mingw-w64/include/minwindef.h:
-
-/usr/share/mingw-w64/include/stdio.h:
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/ext/concurrence.h:
 
 /usr/share/mingw-w64/include/swprintf.inl:
 
-/usr/share/mingw-w64/include/psdk_inc/_fd_types.h:
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/enqcmdintrin.h:
 
-/usr/share/mingw-w64/include/sys/types.h:
+/usr/share/mingw-w64/include/sec_api/stdio_s.h:
 
-/home/claude/aleste-xi-bios/emulator/lx/legacy.cpp:
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/clocale:
 
-/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_loadso.h:
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_multimap.h:
 
-/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_gesture.h:
+/usr/share/mingw-w64/include/inaddr.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/ext/numeric_traits.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_pair.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_set.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_stack.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512fp16vlintrin.h:
+
+/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_main.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/vector:
+
+/usr/share/mingw-w64/include/process.h:
+
+/usr/share/mingw-w64/include/concurrencysal.h:
+
+/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_mouse.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/ctime:
+
+/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_thread.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_vector.h:
+
+/usr/share/mingw-w64/include/winefs.h:
+
+/usr/share/mingw-w64/include/cderr.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/this_thread_sleep.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/unique_lock.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/prfchwintrin.h:
+
+/home/claude/aleste-xi-bios/emulator/lx/debugger.h:
+
+/usr/share/mingw-w64/include/threadpoollegacyapiset.h:
+
+/usr/share/mingw-w64/include/winver.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/compare:
+
+/usr/share/mingw-w64/include/rpcasync.h:
+
+/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_gamecontroller.h:
+
+/usr/share/mingw-w64/include/_mingw_stat64.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512vbmivlintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/adxintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512vlbwintrin.h:
+
+/usr/share/mingw-w64/include/sec_api/stralign_s.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512vldqintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/clzerointrin.h:
+
+/usr/share/mingw-w64/include/memoryapi.h:
+
+/usr/share/mingw-w64/include/minwinbase.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512vlintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/x86_64-w64-mingw32/bits/os_defines.h:
+
+/usr/share/mingw-w64/include/sal.h:
+
+/usr/share/mingw-w64/include/sdks/_mingw_ddk.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/cpuid.h:
+
+/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_locale.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512vnniintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/clflushoptintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512vp2intersectintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/clwbintrin.h:
+
+/usr/share/mingw-w64/include/guiddef.h:
+
+/usr/share/mingw-w64/include/errhandlingapi.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/chrono:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512vp2intersectvlintrin.h:
+
+/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/allocator.h:
+
+/usr/share/mingw-w64/include/dlgs.h:
+
+/usr/share/mingw-w64/include/corecrt_stdio_config.h:
+
+/usr/share/mingw-w64/include/rpcdce.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/exception:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512vpopcntdqvlintrin.h:
+
+/usr/share/mingw-w64/include/psdk_inc/_wsa_errnos.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avxifmaintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/uintrintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avxintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/cetintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avxvnniintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/cldemoteintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/emmintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/f16cintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/ia32intrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/char_traits.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/keylockerintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/tbmintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/lwpintrin.h:
+
+/usr/share/mingw-w64/include/processtopologyapi.h:
+
+/usr/share/mingw-w64/include/msxml.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/pkuintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/popcntintrin.h:
+
+/usr/share/mingw-w64/include/winsdkver.h:
+
+/usr/share/mingw-w64/include/sec_api/string_s.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/memory_resource.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/prfchiintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/string_view.tcc:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/raointintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/rdseedintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/rtmintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/serializeintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/shaintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/movdirintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/vpclmulqdqintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/tsxldtrkintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/vaesintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/wmmintrin.h:
+
+/usr/share/mingw-w64/include/ioapiset.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512vbmi2intrin.h:
+
+/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_misc.h:
+
+/usr/share/mingw-w64/include/winnls.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/x86gprintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/xmmintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/xsavecintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/xsaveintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/xsaveoptintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/xsavesintrin.h:
+
+/usr/share/mingw-w64/include/intrin.h:
+
+/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_shape.h:
+
+/usr/share/mingw-w64/include/nb30.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_tree.h:
+
+/usr/share/mingw-w64/include/_mingw_stdarg.h:
+
+/usr/share/mingw-w64/include/mmiscapi.h:
+
+/usr/share/mingw-w64/include/psdk_inc/_xmitfile.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/stack:
+
+/usr/share/mingw-w64/include/_mingw_unicode.h:
+
+/usr/share/mingw-w64/include/apiset.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_multiset.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512vpopcntdqintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/fma4intrin.h:
+
+/usr/share/mingw-w64/include/apisetcconv.h:
+
+/usr/share/mingw-w64/include/bcrypt.h:
+
+/usr/share/mingw-w64/include/bemapiset.h:
+
+/usr/share/mingw-w64/include/cguid.h:
+
+/usr/share/mingw-w64/include/mstcpip.h:
+
+/usr/share/mingw-w64/include/combaseapi.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/hash_bytes.h:
+
+/usr/share/mingw-w64/include/commdlg.h:
+
+/usr/share/mingw-w64/include/datetimeapi.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_heap.h:
+
+/usr/share/mingw-w64/include/psdk_inc/intrin-impl.h:
+
+/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_endian.h:
+
+/usr/share/mingw-w64/include/winsvc.h:
+
+/usr/share/mingw-w64/include/debugapi.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/system_error:
+
+/usr/share/mingw-w64/include/_bsd_types.h:
+
+/usr/share/mingw-w64/include/dpapi.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/pmmintrin.h:
+
+/usr/share/mingw-w64/include/excpt.h:
+
+/usr/share/mingw-w64/include/fibersapi.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/uses_allocator.h:
+
+/usr/share/mingw-w64/include/fltwinerror.h:
+
+/usr/share/mingw-w64/include/heapapi.h:
+
+/usr/share/mingw-w64/include/processthreadsapi.h:
+
+/usr/share/mingw-w64/include/in6addr.h:
+
+/usr/share/mingw-w64/include/interlockedapi.h:
+
+/usr/share/mingw-w64/include/jobapi.h:
+
+/usr/share/mingw-w64/include/joystickapi.h:
+
+/usr/share/mingw-w64/include/ktmtypes.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/hresetintrin.h:
+
+/usr/share/mingw-w64/include/lzexpand.h:
+
+/usr/share/mingw-w64/include/mciapi.h:
+
+/usr/share/mingw-w64/include/mmeapi.h:
 
 /usr/share/mingw-w64/include/mmiscapi2.h:
 
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/locale_facets_nonio.tcc:
+
 /tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_log.h:
+
+/usr/share/mingw-w64/include/wchar.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/set:
 
 /tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_assert.h:
 
-/usr/share/mingw-w64/include/_mingw_off_t.h:
+/usr/share/mingw-w64/include/mmsystem.h:
 
-/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_audio.h:
+/usr/share/mingw-w64/include/namespaceapi.h:
 
-/usr/share/mingw-w64/include/servprov.h:
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/sstream.tcc:
 
-/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_cpuinfo.h:
+/usr/share/mingw-w64/include/oaidl.h:
 
-/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_guid.h:
+/usr/share/mingw-w64/include/objidlbase.h:
 
-/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_hidapi.h:
+/usr/share/mingw-w64/include/oleauto.h:
+
+/usr/share/mingw-w64/include/winnt.h:
+
+/usr/share/mingw-w64/include/oleidl.h:
+
+/usr/share/mingw-w64/include/playsoundapi.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/pstl/execution_defs.h:
+
+/usr/share/mingw-w64/include/poppack.h:
+
+/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_rwops.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/xtestintrin.h:
+
+/usr/share/mingw-w64/include/processenv.h:
+
+/usr/share/mingw-w64/include/qos.h:
 
 /usr/share/mingw-w64/include/profileapi.h:
 
+/usr/share/mingw-w64/include/propidl.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/utility.h:
+
+/usr/share/mingw-w64/include/prsht.h:
+
+/usr/share/mingw-w64/include/psdk_inc/_fd_types.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/stdarg.h:
+
+/usr/share/mingw-w64/include/wtypes.h:
+
+/usr/share/mingw-w64/include/psdk_inc/_ip_mreq1.h:
+
+/usr/share/mingw-w64/include/psdk_inc/_ip_types.h:
+
+/usr/share/mingw-w64/include/psdk_inc/_ws1_undef.h:
+
+/usr/share/mingw-w64/include/pshpack4.h:
+
+/usr/share/mingw-w64/include/realtimeapiset.h:
+
+/usr/share/mingw-w64/include/reason.h:
+
+/usr/share/mingw-w64/include/rpcnsi.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/cctype:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/pstl/glue_algorithm_defs.h:
+
+/usr/share/mingw-w64/include/rpcnsip.h:
+
+/usr/share/mingw-w64/include/psdk_inc/_wsadata.h:
+
+/usr/share/mingw-w64/include/stralign.h:
+
+/usr/share/mingw-w64/include/rpcnterr.h:
+
+/usr/share/mingw-w64/include/sdkddkver.h:
+
+/usr/share/mingw-w64/include/ole2.h:
+
+/usr/share/mingw-w64/include/securitybaseapi.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/hashtable.h:
+
+/usr/share/mingw-w64/include/servprov.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/vector.tcc:
+
+/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_cpuinfo.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/new_allocator.h:
+
+/usr/share/mingw-w64/include/shellapi.h:
+
+/usr/share/mingw-w64/include/specstrings.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/debug/debug.h:
+
+/usr/share/mingw-w64/include/stdarg.h:
+
+/usr/share/mingw-w64/include/utilapiset.h:
+
+/usr/share/mingw-w64/include/synchapi.h:
+
+/usr/share/mingw-w64/include/sysinfoapi.h:
+
+/usr/share/mingw-w64/include/timeapi.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avxneconvertintrin.h:
+
+/usr/share/mingw-w64/include/winsock2.h:
+
+/usr/share/mingw-w64/include/timezoneapi.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/ext/string_conversions.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512vbmiintrin.h:
+
+/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/begin_code.h:
+
 /tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_hints.h:
+
+/usr/share/mingw-w64/include/unknwn.h:
+
+/usr/share/mingw-w64/include/winapifamily.h:
+
+/usr/share/mingw-w64/include/winbase.h:
+
+/usr/share/mingw-w64/include/winioctl.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/streambuf:
+
+/usr/share/mingw-w64/include/stringapiset.h:
+
+/usr/share/mingw-w64/include/windef.h:
+
+/usr/share/mingw-w64/include/wingdi.h:
+
+/usr/share/mingw-w64/include/libloaderapi.h:
+
+/usr/share/mingw-w64/include/winreg.h:
+
+/usr/share/mingw-w64/include/winscard.h:
+
+/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_keycode.h:
+
+/usr/share/mingw-w64/include/winsmcrd.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/bmiintrin.h:
+
+/usr/share/mingw-w64/include/winsock.h:
+
+/usr/share/mingw-w64/include/winspool.h:
+
+/usr/share/mingw-w64/include/wow64apiset.h:
+
+/home/claude/aleste-xi-bios/emulator/lx/legacy.cpp:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/algorithm:
+
+/home/claude/aleste-xi-bios/emulator/lx/machine.cpp:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512vnnivlintrin.h:
+
+/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_atomic.h:
+
+/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_clipboard.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/exception.h:
+
+/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_error.h:
+
+/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_loadso.h:
+
+/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_guid.h:
+
+/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_haptic.h:
+
+/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_hidapi.h:
+
+/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_messagebox.h:
+
+/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_metal.h:
+
+/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_platform.h:
+
+/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_power.h:
+
+/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_quit.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/istream.tcc:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h:
+
+/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_render.h:
+
+/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_scancode.h:
+
+/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_stdinc.h:
+
+/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_surface.h:
+
+/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_touch.h:
+
+/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_version.h:
+
+/usr/share/mingw-w64/include/wincrypt.h:
+
+/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_gesture.h:
+
+/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/close_code.h:
+
+/usr/share/mingw-w64/include/setjmp.h:
