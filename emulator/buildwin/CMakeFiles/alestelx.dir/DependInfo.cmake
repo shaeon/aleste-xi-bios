@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/claude/aleste-xi-bios/emulator/lx/debugger.cpp" "CMakeFiles/alestelx.dir/lx/debugger.cpp.obj" "gcc" "CMakeFiles/alestelx.dir/lx/debugger.cpp.obj.d"
   "/home/claude/aleste-xi-bios/emulator/lx/fdc765.cpp" "CMakeFiles/alestelx.dir/lx/fdc765.cpp.obj" "gcc" "CMakeFiles/alestelx.dir/lx/fdc765.cpp.obj.d"
+  "/home/claude/aleste-xi-bios/emulator/lx/gdbserver.cpp" "CMakeFiles/alestelx.dir/lx/gdbserver.cpp.obj" "gcc" "CMakeFiles/alestelx.dir/lx/gdbserver.cpp.obj.d"
   "/home/claude/aleste-xi-bios/emulator/lx/legacy.cpp" "CMakeFiles/alestelx.dir/lx/legacy.cpp.obj" "gcc" "CMakeFiles/alestelx.dir/lx/legacy.cpp.obj.d"
   "/home/claude/aleste-xi-bios/emulator/lx/machine.cpp" "CMakeFiles/alestelx.dir/lx/machine.cpp.obj" "gcc" "CMakeFiles/alestelx.dir/lx/machine.cpp.obj.d"
   "/home/claude/aleste-xi-bios/emulator/lx/main_lx.cpp" "CMakeFiles/alestelx.dir/lx/main_lx.cpp.obj" "gcc" "CMakeFiles/alestelx.dir/lx/main_lx.cpp.obj.d"

@@ -8,6 +8,7 @@ CMakeFiles/alestelx.dir/lx/debugger.cpp.obj: /home/claude/aleste-xi-bios/emulato
   /home/claude/aleste-xi-bios/emulator/lx/debugger.h \
   /home/claude/aleste-xi-bios/emulator/lx/fdc765.h \
   /home/claude/aleste-xi-bios/emulator/lx/machine.h \
+  /home/claude/aleste-xi-bios/emulator/lx/tape.h \
   /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/array \
   /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/backward/binders.h \
   /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bit \
@@ -346,6 +347,7 @@ CMakeFiles/alestelx.dir/lx/legacy.cpp.obj: /home/claude/aleste-xi-bios/emulator/
   /home/claude/aleste-xi-bios/deps/z80ex/include/z80ex_common.h \
   /home/claude/aleste-xi-bios/emulator/lx/fdc765.h \
   /home/claude/aleste-xi-bios/emulator/lx/machine.h \
+  /home/claude/aleste-xi-bios/emulator/lx/tape.h \
   /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/algorithm \
   /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/array \
   /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/backward/binders.h \
@@ -485,6 +487,7 @@ CMakeFiles/alestelx.dir/lx/machine.cpp.obj: /home/claude/aleste-xi-bios/emulator
   /home/claude/aleste-xi-bios/emulator/lx/fdc765.h \
   /home/claude/aleste-xi-bios/emulator/lx/kbdmatrix.inc \
   /home/claude/aleste-xi-bios/emulator/lx/machine.h \
+  /home/claude/aleste-xi-bios/emulator/lx/tape.h \
   /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/algorithm \
   /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/array \
   /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/backward/binders.h \
@@ -630,6 +633,7 @@ CMakeFiles/alestelx.dir/lx/main_lx.cpp.obj: /home/claude/aleste-xi-bios/emulator
   /home/claude/aleste-xi-bios/emulator/lx/debugger.h \
   /home/claude/aleste-xi-bios/emulator/lx/fdc765.h \
   /home/claude/aleste-xi-bios/emulator/lx/machine.h \
+  /home/claude/aleste-xi-bios/emulator/lx/tape.h \
   /tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL.h \
   /tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_assert.h \
   /tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_atomic.h \
@@ -1094,6 +1098,119 @@ CMakeFiles/alestelx.dir/lx/main_lx.cpp.obj: /home/claude/aleste-xi-bios/emulator
   /usr/share/mingw-w64/include/wtypes.h \
   /usr/share/mingw-w64/include/wtypesbase.h
 
+CMakeFiles/alestelx.dir/lx/tape.cpp.obj: /home/claude/aleste-xi-bios/emulator/lx/tape.cpp \
+  /home/claude/aleste-xi-bios/emulator/lx/tape.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/backward/binders.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bit \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/alloc_traits.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/allocator.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/basic_string.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/basic_string.tcc \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/char_traits.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/charconv.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/concept_check.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/cpp_type_traits.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/cxxabi_forced.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/exception.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/exception_defines.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/functexcept.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/functional_hash.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/hash_bytes.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/invoke.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/localefwd.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/memory_resource.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/memoryfwd.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/move.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/new_allocator.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/ostream_insert.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/postypes.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/predefined_ops.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/ptr_traits.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/range_access.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/refwrap.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/requires_hosted.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/std_abs.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_algobase.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_bvector.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_construct.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_function.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_iterator.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_iterator_base_funcs.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_iterator_base_types.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_pair.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_uninitialized.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_vector.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/string_view.tcc \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stringfwd.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/uses_allocator.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/uses_allocator_args.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/utility.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/vector.tcc \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/cctype \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/cerrno \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/clocale \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/cstddef \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/cstdint \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/cstdio \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/cstdlib \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/cstring \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/cwchar \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/debug/assertions.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/debug/debug.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/ext/alloc_traits.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/ext/numeric_traits.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/ext/string_conversions.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/ext/type_traits.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/initializer_list \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/iosfwd \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/new \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/pstl/pstl_config.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/stdlib.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/string \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/string_view \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/tuple \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/type_traits \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/vector \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/x86_64-w64-mingw32/bits/c++config.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/limits.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/mm_malloc.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/stddef.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/stdint.h \
+  /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/syslimits.h \
+  /usr/share/mingw-w64/include/_mingw.h \
+  /usr/share/mingw-w64/include/_mingw_mac.h \
+  /usr/share/mingw-w64/include/_mingw_off_t.h \
+  /usr/share/mingw-w64/include/_mingw_secapi.h \
+  /usr/share/mingw-w64/include/_mingw_stat64.h \
+  /usr/share/mingw-w64/include/corecrt.h \
+  /usr/share/mingw-w64/include/corecrt_stdio_config.h \
+  /usr/share/mingw-w64/include/corecrt_wstdlib.h \
+  /usr/share/mingw-w64/include/crtdefs.h \
+  /usr/share/mingw-w64/include/ctype.h \
+  /usr/share/mingw-w64/include/errno.h \
+  /usr/share/mingw-w64/include/limits.h \
+  /usr/share/mingw-w64/include/locale.h \
+  /usr/share/mingw-w64/include/malloc.h \
+  /usr/share/mingw-w64/include/sdks/_mingw_ddk.h \
+  /usr/share/mingw-w64/include/sec_api/stdio_s.h \
+  /usr/share/mingw-w64/include/sec_api/stdlib_s.h \
+  /usr/share/mingw-w64/include/sec_api/string_s.h \
+  /usr/share/mingw-w64/include/sec_api/wchar_s.h \
+  /usr/share/mingw-w64/include/stddef.h \
+  /usr/share/mingw-w64/include/stdint.h \
+  /usr/share/mingw-w64/include/stdio.h \
+  /usr/share/mingw-w64/include/stdlib.h \
+  /usr/share/mingw-w64/include/string.h \
+  /usr/share/mingw-w64/include/swprintf.inl \
+  /usr/share/mingw-w64/include/vadefs.h \
+  /usr/share/mingw-w64/include/wchar.h
+
+
+/home/claude/aleste-xi-bios/emulator/lx/tape.cpp:
 
 /usr/share/mingw-w64/include/wow64apiset.h:
 
@@ -1463,16 +1580,6 @@ CMakeFiles/alestelx.dir/lx/main_lx.cpp.obj: /home/claude/aleste-xi-bios/emulator
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/this_thread_sleep.h:
 
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/cwchar:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/std_abs.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/mwaitintrin.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/cxxabi_init_exception.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/x86_64-w64-mingw32/bits/c++config.h:
-
 /usr/share/mingw-w64/include/winefs.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_vector.h:
@@ -1538,6 +1645,16 @@ CMakeFiles/alestelx.dir/lx/main_lx.cpp.obj: /home/claude/aleste-xi-bios/emulator
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/cstring:
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/cxxabi_forced.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/std_abs.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/mwaitintrin.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/cxxabi_init_exception.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/cwchar:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/x86_64-w64-mingw32/bits/c++config.h:
 
 /home/claude/aleste-xi-bios/deps/z80ex/include/z80ex_common.h:
 
@@ -1683,11 +1800,11 @@ CMakeFiles/alestelx.dir/lx/main_lx.cpp.obj: /home/claude/aleste-xi-bios/emulator
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/x86_64-w64-mingw32/bits/atomic_word.h:
 
+/home/claude/aleste-xi-bios/emulator/lx/tape.h:
+
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/basic_string.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_multiset.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/erase_if.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/lzcntintrin.h:
 
@@ -1825,6 +1942,8 @@ CMakeFiles/alestelx.dir/lx/main_lx.cpp.obj: /home/claude/aleste-xi-bios/emulator
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/allocated_ptr.h:
 
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/erase_if.h:
+
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/functional_hash.h:
 
 /usr/share/mingw-w64/include/fileapi.h:
@@ -1931,6 +2050,10 @@ CMakeFiles/alestelx.dir/lx/main_lx.cpp.obj: /home/claude/aleste-xi-bios/emulator
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/ext/aligned_buffer.h:
 
+/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_keycode.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/ext/string_conversions.h:
+
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/ext/type_traits.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/functional:
@@ -1990,6 +2113,14 @@ CMakeFiles/alestelx.dir/lx/main_lx.cpp.obj: /home/claude/aleste-xi-bios/emulator
 /usr/share/mingw-w64/include/rpcnsi.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/pstl/glue_algorithm_defs.h:
+
+/usr/share/mingw-w64/include/virtdisk.h:
+
+/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/stddef.h:
+
+/usr/share/mingw-w64/include/sec_api/stdio_s.h:
+
+/home/claude/aleste-xi-bios/emulator/lx/main_lx.cpp:
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/string_view:
 
@@ -2093,14 +2224,6 @@ CMakeFiles/alestelx.dir/lx/main_lx.cpp.obj: /home/claude/aleste-xi-bios/emulator
 
 /usr/share/mingw-w64/include/sdks/_mingw_ddk.h:
 
-/usr/share/mingw-w64/include/virtdisk.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/stddef.h:
-
-/home/claude/aleste-xi-bios/emulator/lx/main_lx.cpp:
-
-/usr/share/mingw-w64/include/sec_api/stdio_s.h:
-
 /usr/share/mingw-w64/include/objbase.h:
 
 /usr/share/mingw-w64/include/sec_api/stdlib_s.h:
@@ -2148,7 +2271,3 @@ CMakeFiles/alestelx.dir/lx/main_lx.cpp.obj: /home/claude/aleste-xi-bios/emulator
 /usr/share/mingw-w64/include/profileapi.h:
 
 /tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_hints.h:
-
-/usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/ext/string_conversions.h:
-
-/tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_keycode.h:

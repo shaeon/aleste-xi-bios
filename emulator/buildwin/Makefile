@@ -264,6 +264,30 @@ lx/fdc765.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_matrix.dir/build.make CMakeFiles/test_matrix.dir/lx/fdc765.cpp.s
 .PHONY : lx/fdc765.cpp.s
 
+lx/gdbserver.obj: lx/gdbserver.cpp.obj
+.PHONY : lx/gdbserver.obj
+
+# target to build an object file
+lx/gdbserver.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alestelx.dir/build.make CMakeFiles/alestelx.dir/lx/gdbserver.cpp.obj
+.PHONY : lx/gdbserver.cpp.obj
+
+lx/gdbserver.i: lx/gdbserver.cpp.i
+.PHONY : lx/gdbserver.i
+
+# target to preprocess a source file
+lx/gdbserver.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alestelx.dir/build.make CMakeFiles/alestelx.dir/lx/gdbserver.cpp.i
+.PHONY : lx/gdbserver.cpp.i
+
+lx/gdbserver.s: lx/gdbserver.cpp.s
+.PHONY : lx/gdbserver.s
+
+# target to generate assembly for a file
+lx/gdbserver.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alestelx.dir/build.make CMakeFiles/alestelx.dir/lx/gdbserver.cpp.s
+.PHONY : lx/gdbserver.cpp.s
+
 lx/legacy.obj: lx/legacy.cpp.obj
 .PHONY : lx/legacy.obj
 
@@ -417,6 +441,9 @@ help:
 	@echo "... lx/fdc765.obj"
 	@echo "... lx/fdc765.i"
 	@echo "... lx/fdc765.s"
+	@echo "... lx/gdbserver.obj"
+	@echo "... lx/gdbserver.i"
+	@echo "... lx/gdbserver.s"
 	@echo "... lx/legacy.obj"
 	@echo "... lx/legacy.i"
 	@echo "... lx/legacy.s"

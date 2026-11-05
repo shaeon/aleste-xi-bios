@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/alestelx.dir/lx/debugger.cpp.obj.d"
   "CMakeFiles/alestelx.dir/lx/fdc765.cpp.obj"
   "CMakeFiles/alestelx.dir/lx/fdc765.cpp.obj.d"
+  "CMakeFiles/alestelx.dir/lx/gdbserver.cpp.obj"
+  "CMakeFiles/alestelx.dir/lx/gdbserver.cpp.obj.d"
   "CMakeFiles/alestelx.dir/lx/legacy.cpp.obj"
   "CMakeFiles/alestelx.dir/lx/legacy.cpp.obj.d"
   "CMakeFiles/alestelx.dir/lx/machine.cpp.obj"
