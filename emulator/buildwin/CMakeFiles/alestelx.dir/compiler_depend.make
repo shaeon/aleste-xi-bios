@@ -910,67 +910,336 @@ CMakeFiles/alestelx.dir/lx/main_lx.cpp.obj: /home/claude/aleste-xi-bios/emulator
   /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/xsaveoptintrin.h \
   /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/xsavesintrin.h \
   /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/xtestintrin.h \
+  /usr/share/mingw-w64/include/_bsd_types.h \
   /usr/share/mingw-w64/include/_mingw.h \
   /usr/share/mingw-w64/include/_mingw_mac.h \
   /usr/share/mingw-w64/include/_mingw_off_t.h \
   /usr/share/mingw-w64/include/_mingw_secapi.h \
   /usr/share/mingw-w64/include/_mingw_stat64.h \
   /usr/share/mingw-w64/include/_mingw_stdarg.h \
+  /usr/share/mingw-w64/include/_mingw_unicode.h \
   /usr/share/mingw-w64/include/_timeval.h \
+  /usr/share/mingw-w64/include/apiset.h \
+  /usr/share/mingw-w64/include/apisetcconv.h \
+  /usr/share/mingw-w64/include/basetsd.h \
+  /usr/share/mingw-w64/include/bcrypt.h \
+  /usr/share/mingw-w64/include/bemapiset.h \
+  /usr/share/mingw-w64/include/cderr.h \
+  /usr/share/mingw-w64/include/cguid.h \
+  /usr/share/mingw-w64/include/combaseapi.h \
+  /usr/share/mingw-w64/include/commdlg.h \
+  /usr/share/mingw-w64/include/concurrencysal.h \
   /usr/share/mingw-w64/include/corecrt.h \
   /usr/share/mingw-w64/include/corecrt_startup.h \
   /usr/share/mingw-w64/include/corecrt_stdio_config.h \
   /usr/share/mingw-w64/include/corecrt_wstdlib.h \
   /usr/share/mingw-w64/include/crtdefs.h \
   /usr/share/mingw-w64/include/ctype.h \
+  /usr/share/mingw-w64/include/datetimeapi.h \
+  /usr/share/mingw-w64/include/dde.h \
+  /usr/share/mingw-w64/include/ddeml.h \
+  /usr/share/mingw-w64/include/debugapi.h \
+  /usr/share/mingw-w64/include/dlgs.h \
+  /usr/share/mingw-w64/include/dpapi.h \
+  /usr/share/mingw-w64/include/driverspecs.h \
+  /usr/share/mingw-w64/include/errhandlingapi.h \
   /usr/share/mingw-w64/include/errno.h \
+  /usr/share/mingw-w64/include/excpt.h \
+  /usr/share/mingw-w64/include/fibersapi.h \
+  /usr/share/mingw-w64/include/fileapi.h \
+  /usr/share/mingw-w64/include/fltwinerror.h \
+  /usr/share/mingw-w64/include/guiddef.h \
+  /usr/share/mingw-w64/include/handleapi.h \
+  /usr/share/mingw-w64/include/heapapi.h \
+  /usr/share/mingw-w64/include/imm.h \
+  /usr/share/mingw-w64/include/inaddr.h \
+  /usr/share/mingw-w64/include/interlockedapi.h \
   /usr/share/mingw-w64/include/intrin.h \
+  /usr/share/mingw-w64/include/ioapiset.h \
+  /usr/share/mingw-w64/include/jobapi.h \
+  /usr/share/mingw-w64/include/joystickapi.h \
+  /usr/share/mingw-w64/include/ktmtypes.h \
+  /usr/share/mingw-w64/include/libloaderapi.h \
   /usr/share/mingw-w64/include/limits.h \
   /usr/share/mingw-w64/include/locale.h \
+  /usr/share/mingw-w64/include/lzexpand.h \
   /usr/share/mingw-w64/include/malloc.h \
+  /usr/share/mingw-w64/include/mciapi.h \
+  /usr/share/mingw-w64/include/mcx.h \
+  /usr/share/mingw-w64/include/memoryapi.h \
+  /usr/share/mingw-w64/include/minwinbase.h \
+  /usr/share/mingw-w64/include/minwindef.h \
+  /usr/share/mingw-w64/include/mmeapi.h \
+  /usr/share/mingw-w64/include/mmiscapi.h \
+  /usr/share/mingw-w64/include/mmiscapi2.h \
+  /usr/share/mingw-w64/include/mmsyscom.h \
+  /usr/share/mingw-w64/include/mmsystem.h \
+  /usr/share/mingw-w64/include/msxml.h \
+  /usr/share/mingw-w64/include/namedpipeapi.h \
+  /usr/share/mingw-w64/include/namespaceapi.h \
+  /usr/share/mingw-w64/include/nb30.h \
+  /usr/share/mingw-w64/include/ncrypt.h \
+  /usr/share/mingw-w64/include/oaidl.h \
+  /usr/share/mingw-w64/include/objbase.h \
+  /usr/share/mingw-w64/include/objidl.h \
+  /usr/share/mingw-w64/include/objidlbase.h \
+  /usr/share/mingw-w64/include/ole2.h \
+  /usr/share/mingw-w64/include/oleauto.h \
+  /usr/share/mingw-w64/include/oleidl.h \
+  /usr/share/mingw-w64/include/playsoundapi.h \
+  /usr/share/mingw-w64/include/poppack.h \
   /usr/share/mingw-w64/include/process.h \
+  /usr/share/mingw-w64/include/processenv.h \
+  /usr/share/mingw-w64/include/processthreadsapi.h \
+  /usr/share/mingw-w64/include/processtopologyapi.h \
+  /usr/share/mingw-w64/include/profileapi.h \
+  /usr/share/mingw-w64/include/propidl.h \
+  /usr/share/mingw-w64/include/prsht.h \
+  /usr/share/mingw-w64/include/psdk_inc/_fd_types.h \
+  /usr/share/mingw-w64/include/psdk_inc/_ip_mreq1.h \
+  /usr/share/mingw-w64/include/psdk_inc/_ip_types.h \
+  /usr/share/mingw-w64/include/psdk_inc/_socket_types.h \
+  /usr/share/mingw-w64/include/psdk_inc/_wsa_errnos.h \
+  /usr/share/mingw-w64/include/psdk_inc/_wsadata.h \
+  /usr/share/mingw-w64/include/psdk_inc/_xmitfile.h \
   /usr/share/mingw-w64/include/psdk_inc/intrin-impl.h \
+  /usr/share/mingw-w64/include/pshpack1.h \
+  /usr/share/mingw-w64/include/pshpack2.h \
+  /usr/share/mingw-w64/include/pshpack4.h \
+  /usr/share/mingw-w64/include/pshpack8.h \
   /usr/share/mingw-w64/include/pthread.h \
   /usr/share/mingw-w64/include/pthread_compat.h \
   /usr/share/mingw-w64/include/pthread_signal.h \
   /usr/share/mingw-w64/include/pthread_time.h \
   /usr/share/mingw-w64/include/pthread_unistd.h \
+  /usr/share/mingw-w64/include/realtimeapiset.h \
+  /usr/share/mingw-w64/include/reason.h \
+  /usr/share/mingw-w64/include/rpc.h \
+  /usr/share/mingw-w64/include/rpcasync.h \
+  /usr/share/mingw-w64/include/rpcdce.h \
+  /usr/share/mingw-w64/include/rpcdcep.h \
+  /usr/share/mingw-w64/include/rpcndr.h \
+  /usr/share/mingw-w64/include/rpcnsi.h \
+  /usr/share/mingw-w64/include/rpcnsip.h \
+  /usr/share/mingw-w64/include/rpcnterr.h \
+  /usr/share/mingw-w64/include/rpcsal.h \
+  /usr/share/mingw-w64/include/sal.h \
   /usr/share/mingw-w64/include/sdkddkver.h \
   /usr/share/mingw-w64/include/sdks/_mingw_ddk.h \
   /usr/share/mingw-w64/include/sec_api/stdio_s.h \
   /usr/share/mingw-w64/include/sec_api/stdlib_s.h \
+  /usr/share/mingw-w64/include/sec_api/stralign_s.h \
   /usr/share/mingw-w64/include/sec_api/string_s.h \
   /usr/share/mingw-w64/include/sec_api/sys/timeb_s.h \
   /usr/share/mingw-w64/include/sec_api/wchar_s.h \
+  /usr/share/mingw-w64/include/securityappcontainer.h \
+  /usr/share/mingw-w64/include/securitybaseapi.h \
+  /usr/share/mingw-w64/include/servprov.h \
   /usr/share/mingw-w64/include/setjmp.h \
+  /usr/share/mingw-w64/include/shellapi.h \
   /usr/share/mingw-w64/include/signal.h \
+  /usr/share/mingw-w64/include/specstrings.h \
   /usr/share/mingw-w64/include/stdarg.h \
   /usr/share/mingw-w64/include/stddef.h \
   /usr/share/mingw-w64/include/stdint.h \
   /usr/share/mingw-w64/include/stdio.h \
   /usr/share/mingw-w64/include/stdlib.h \
+  /usr/share/mingw-w64/include/stralign.h \
   /usr/share/mingw-w64/include/string.h \
+  /usr/share/mingw-w64/include/stringapiset.h \
   /usr/share/mingw-w64/include/swprintf.inl \
+  /usr/share/mingw-w64/include/synchapi.h \
   /usr/share/mingw-w64/include/sys/timeb.h \
   /usr/share/mingw-w64/include/sys/types.h \
+  /usr/share/mingw-w64/include/sysinfoapi.h \
+  /usr/share/mingw-w64/include/systemtopologyapi.h \
+  /usr/share/mingw-w64/include/threadpoolapiset.h \
+  /usr/share/mingw-w64/include/threadpoollegacyapiset.h \
   /usr/share/mingw-w64/include/time.h \
+  /usr/share/mingw-w64/include/timeapi.h \
+  /usr/share/mingw-w64/include/timezoneapi.h \
+  /usr/share/mingw-w64/include/tvout.h \
+  /usr/share/mingw-w64/include/unknwn.h \
+  /usr/share/mingw-w64/include/unknwnbase.h \
+  /usr/share/mingw-w64/include/urlmon.h \
+  /usr/share/mingw-w64/include/utilapiset.h \
   /usr/share/mingw-w64/include/vadefs.h \
+  /usr/share/mingw-w64/include/virtdisk.h \
   /usr/share/mingw-w64/include/wchar.h \
   /usr/share/mingw-w64/include/winapifamily.h \
-  /usr/share/mingw-w64/include/winsdkver.h
+  /usr/share/mingw-w64/include/winbase.h \
+  /usr/share/mingw-w64/include/wincon.h \
+  /usr/share/mingw-w64/include/wincrypt.h \
+  /usr/share/mingw-w64/include/windef.h \
+  /usr/share/mingw-w64/include/windows.h \
+  /usr/share/mingw-w64/include/winefs.h \
+  /usr/share/mingw-w64/include/winerror.h \
+  /usr/share/mingw-w64/include/wingdi.h \
+  /usr/share/mingw-w64/include/winioctl.h \
+  /usr/share/mingw-w64/include/winnetwk.h \
+  /usr/share/mingw-w64/include/winnls.h \
+  /usr/share/mingw-w64/include/winnt.h \
+  /usr/share/mingw-w64/include/winperf.h \
+  /usr/share/mingw-w64/include/winreg.h \
+  /usr/share/mingw-w64/include/winscard.h \
+  /usr/share/mingw-w64/include/winsdkver.h \
+  /usr/share/mingw-w64/include/winsmcrd.h \
+  /usr/share/mingw-w64/include/winsock.h \
+  /usr/share/mingw-w64/include/winspool.h \
+  /usr/share/mingw-w64/include/winsvc.h \
+  /usr/share/mingw-w64/include/winuser.h \
+  /usr/share/mingw-w64/include/winver.h \
+  /usr/share/mingw-w64/include/wnnc.h \
+  /usr/share/mingw-w64/include/wow64apiset.h \
+  /usr/share/mingw-w64/include/wtypes.h \
+  /usr/share/mingw-w64/include/wtypesbase.h
 
+
+/usr/share/mingw-w64/include/wow64apiset.h:
+
+/usr/share/mingw-w64/include/winspool.h:
+
+/usr/share/mingw-w64/include/winsock.h:
+
+/usr/share/mingw-w64/include/winsmcrd.h:
+
+/usr/share/mingw-w64/include/winscard.h:
+
+/usr/share/mingw-w64/include/winreg.h:
+
+/usr/share/mingw-w64/include/wingdi.h:
+
+/usr/share/mingw-w64/include/windef.h:
+
+/usr/share/mingw-w64/include/winioctl.h:
+
+/usr/share/mingw-w64/include/wincrypt.h:
+
+/usr/share/mingw-w64/include/winbase.h:
 
 /usr/share/mingw-w64/include/winapifamily.h:
 
+/usr/share/mingw-w64/include/unknwn.h:
+
+/usr/share/mingw-w64/include/timeapi.h:
+
+/usr/share/mingw-w64/include/sysinfoapi.h:
+
+/usr/share/mingw-w64/include/synchapi.h:
+
+/usr/share/mingw-w64/include/stringapiset.h:
+
+/usr/share/mingw-w64/include/utilapiset.h:
+
 /usr/share/mingw-w64/include/stdarg.h:
+
+/usr/share/mingw-w64/include/specstrings.h:
+
+/usr/share/mingw-w64/include/shellapi.h:
 
 /usr/share/mingw-w64/include/setjmp.h:
 
+/usr/share/mingw-w64/include/securitybaseapi.h:
+
 /usr/share/mingw-w64/include/sdkddkver.h:
+
+/usr/share/mingw-w64/include/rpcnterr.h:
+
+/usr/share/mingw-w64/include/stralign.h:
+
+/usr/share/mingw-w64/include/rpcnsip.h:
+
+/usr/share/mingw-w64/include/reason.h:
+
+/usr/share/mingw-w64/include/realtimeapiset.h:
+
+/usr/share/mingw-w64/include/pshpack4.h:
+
+/usr/share/mingw-w64/include/psdk_inc/_wsadata.h:
+
+/usr/share/mingw-w64/include/psdk_inc/_ip_types.h:
+
+/usr/share/mingw-w64/include/psdk_inc/_ip_mreq1.h:
+
+/usr/share/mingw-w64/include/wtypes.h:
+
+/usr/share/mingw-w64/include/prsht.h:
+
+/usr/share/mingw-w64/include/propidl.h:
+
+/usr/share/mingw-w64/include/processenv.h:
+
+/usr/share/mingw-w64/include/playsoundapi.h:
+
+/usr/share/mingw-w64/include/oleidl.h:
+
+/usr/share/mingw-w64/include/oleauto.h:
+
+/usr/share/mingw-w64/include/objidlbase.h:
+
+/usr/share/mingw-w64/include/oaidl.h:
+
+/usr/share/mingw-w64/include/namespaceapi.h:
+
+/usr/share/mingw-w64/include/mmsystem.h:
+
+/usr/share/mingw-w64/include/mmeapi.h:
+
+/usr/share/mingw-w64/include/mciapi.h:
+
+/usr/share/mingw-w64/include/lzexpand.h:
+
+/usr/share/mingw-w64/include/libloaderapi.h:
+
+/usr/share/mingw-w64/include/ktmtypes.h:
+
+/usr/share/mingw-w64/include/joystickapi.h:
+
+/usr/share/mingw-w64/include/jobapi.h:
+
+/usr/share/mingw-w64/include/interlockedapi.h:
+
+/usr/share/mingw-w64/include/heapapi.h:
+
+/usr/share/mingw-w64/include/fltwinerror.h:
+
+/usr/share/mingw-w64/include/fibersapi.h:
+
+/usr/share/mingw-w64/include/excpt.h:
+
+/usr/share/mingw-w64/include/dpapi.h:
+
+/usr/share/mingw-w64/include/debugapi.h:
+
+/usr/share/mingw-w64/include/winsvc.h:
 
 /usr/share/mingw-w64/include/psdk_inc/intrin-impl.h:
 
+/usr/share/mingw-w64/include/datetimeapi.h:
+
+/usr/share/mingw-w64/include/commdlg.h:
+
+/usr/share/mingw-w64/include/combaseapi.h:
+
+/usr/share/mingw-w64/include/cguid.h:
+
+/usr/share/mingw-w64/include/bemapiset.h:
+
+/usr/share/mingw-w64/include/bcrypt.h:
+
+/usr/share/mingw-w64/include/apisetcconv.h:
+
+/usr/share/mingw-w64/include/apiset.h:
+
+/usr/share/mingw-w64/include/_mingw_unicode.h:
+
+/usr/share/mingw-w64/include/psdk_inc/_xmitfile.h:
+
 /usr/share/mingw-w64/include/_mingw_stdarg.h:
+
+/usr/share/mingw-w64/include/_bsd_types.h:
+
+/usr/share/mingw-w64/include/nb30.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/xtestintrin.h:
 
@@ -985,6 +1254,10 @@ CMakeFiles/alestelx.dir/lx/main_lx.cpp.obj: /home/claude/aleste-xi-bios/emulator
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/xmmintrin.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/x86gprintrin.h:
+
+/usr/share/mingw-w64/include/winnls.h:
+
+/usr/share/mingw-w64/include/ioapiset.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/wmmintrin.h:
 
@@ -1016,6 +1289,8 @@ CMakeFiles/alestelx.dir/lx/main_lx.cpp.obj: /home/claude/aleste-xi-bios/emulator
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/movdirintrin.h:
 
+/usr/share/mingw-w64/include/processtopologyapi.h:
+
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/lwpintrin.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/tbmintrin.h:
@@ -1040,11 +1315,19 @@ CMakeFiles/alestelx.dir/lx/main_lx.cpp.obj: /home/claude/aleste-xi-bios/emulator
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avxifmaintrin.h:
 
+/usr/share/mingw-w64/include/ole2.h:
+
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512vpopcntdqvlintrin.h:
+
+/usr/share/mingw-w64/include/rpcdce.h:
+
+/usr/share/mingw-w64/include/dlgs.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/hresetintrin.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512vpopcntdqintrin.h:
+
+/usr/share/mingw-w64/include/errhandlingapi.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512vp2intersectintrin.h:
 
@@ -1052,13 +1335,21 @@ CMakeFiles/alestelx.dir/lx/main_lx.cpp.obj: /home/claude/aleste-xi-bios/emulator
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512vnnivlintrin.h:
 
+/usr/share/mingw-w64/include/winnt.h:
+
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512vnniintrin.h:
+
+/usr/share/mingw-w64/include/minwinbase.h:
+
+/usr/share/mingw-w64/include/memoryapi.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/cpuid.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/clzerointrin.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512vldqintrin.h:
+
+/usr/share/mingw-w64/include/sec_api/stralign_s.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512vlbwintrin.h:
 
@@ -1082,6 +1373,8 @@ CMakeFiles/alestelx.dir/lx/main_lx.cpp.obj: /home/claude/aleste-xi-bios/emulator
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx2intrin.h:
 
+/usr/share/mingw-w64/include/psdk_inc/_wsa_errnos.h:
+
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512dqintrin.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/amxtileintrin.h:
@@ -1097,6 +1390,8 @@ CMakeFiles/alestelx.dir/lx/main_lx.cpp.obj: /home/claude/aleste-xi-bios/emulator
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/adxintrin.h:
 
 /tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/close_code.h:
+
+/usr/share/mingw-w64/include/timezoneapi.h:
 
 /tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/begin_code.h:
 
@@ -1118,6 +1413,8 @@ CMakeFiles/alestelx.dir/lx/main_lx.cpp.obj: /home/claude/aleste-xi-bios/emulator
 
 /tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_quit.h:
 
+/usr/share/mingw-w64/include/poppack.h:
+
 /tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_rwops.h:
 
 /tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_power.h:
@@ -1134,11 +1431,15 @@ CMakeFiles/alestelx.dir/lx/main_lx.cpp.obj: /home/claude/aleste-xi-bios/emulator
 
 /tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_messagebox.h:
 
+/usr/share/mingw-w64/include/sal.h:
+
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/avx512vlintrin.h:
 
 /tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_locale.h:
 
 /usr/share/mingw-w64/include/_mingw_stat64.h:
+
+/usr/share/mingw-w64/include/winver.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/vector.tcc:
 
@@ -1148,9 +1449,15 @@ CMakeFiles/alestelx.dir/lx/main_lx.cpp.obj: /home/claude/aleste-xi-bios/emulator
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/uses_allocator.h:
 
+/usr/share/mingw-w64/include/threadpoollegacyapiset.h:
+
+/usr/share/mingw-w64/include/processthreadsapi.h:
+
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/prfchwintrin.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/memory_resource.h:
+
+/usr/share/mingw-w64/include/rpcasync.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/unique_lock.h:
 
@@ -1165,6 +1472,8 @@ CMakeFiles/alestelx.dir/lx/main_lx.cpp.obj: /home/claude/aleste-xi-bios/emulator
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/cxxabi_init_exception.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/x86_64-w64-mingw32/bits/c++config.h:
+
+/usr/share/mingw-w64/include/winefs.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_vector.h:
 
@@ -1194,6 +1503,8 @@ CMakeFiles/alestelx.dir/lx/main_lx.cpp.obj: /home/claude/aleste-xi-bios/emulator
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/x86_64-w64-mingw32/bits/os_defines.h:
 
+/usr/share/mingw-w64/include/inaddr.h:
+
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_multimap.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/clocale:
@@ -1210,11 +1521,19 @@ CMakeFiles/alestelx.dir/lx/main_lx.cpp.obj: /home/claude/aleste-xi-bios/emulator
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/regex_executor.tcc:
 
+/usr/share/mingw-w64/include/objidl.h:
+
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/istream:
+
+/usr/share/mingw-w64/include/threadpoolapiset.h:
 
 /usr/share/mingw-w64/include/limits.h:
 
+/usr/share/mingw-w64/include/mcx.h:
+
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/std_mutex.h:
+
+/usr/share/mingw-w64/include/pshpack1.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/cstring:
 
@@ -1228,11 +1547,15 @@ CMakeFiles/alestelx.dir/lx/main_lx.cpp.obj: /home/claude/aleste-xi-bios/emulator
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/sstream.tcc:
 
+/usr/share/mingw-w64/include/rpcsal.h:
+
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/gfniintrin.h:
 
 /tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_main.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/requires_hosted.h:
+
+/usr/share/mingw-w64/include/ncrypt.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/regex_compiler.tcc:
 
@@ -1248,7 +1571,11 @@ CMakeFiles/alestelx.dir/lx/main_lx.cpp.obj: /home/claude/aleste-xi-bios/emulator
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/chrono.h:
 
+/usr/share/mingw-w64/include/guiddef.h:
+
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/regex_constants.h:
+
+/usr/share/mingw-w64/include/winerror.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/regex_compiler.h:
 
@@ -1259,6 +1586,10 @@ CMakeFiles/alestelx.dir/lx/main_lx.cpp.obj: /home/claude/aleste-xi-bios/emulator
 /usr/share/mingw-w64/include/sec_api/sys/timeb_s.h:
 
 /tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_clipboard.h:
+
+/usr/share/mingw-w64/include/winnetwk.h:
+
+/usr/share/mingw-w64/include/driverspecs.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/syslimits.h:
 
@@ -1271,6 +1602,8 @@ CMakeFiles/alestelx.dir/lx/main_lx.cpp.obj: /home/claude/aleste-xi-bios/emulator
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/locale_conv.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/initializer_list:
+
+/usr/share/mingw-w64/include/ddeml.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/bmi2intrin.h:
 
@@ -1286,6 +1619,8 @@ CMakeFiles/alestelx.dir/lx/main_lx.cpp.obj: /home/claude/aleste-xi-bios/emulator
 
 /usr/share/mingw-w64/include/sec_api/string_s.h:
 
+/usr/share/mingw-w64/include/securityappcontainer.h:
+
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/wbnoinvdintrin.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_function.h:
@@ -1298,9 +1633,13 @@ CMakeFiles/alestelx.dir/lx/main_lx.cpp.obj: /home/claude/aleste-xi-bios/emulator
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/memoryfwd.h:
 
+/usr/share/mingw-w64/include/msxml.h:
+
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/basic_ios.h:
 
 /home/claude/aleste-xi-bios/deps/z80ex/include/z80ex.h:
+
+/usr/share/mingw-w64/include/winuser.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/new_allocator.h:
 
@@ -1309,6 +1648,8 @@ CMakeFiles/alestelx.dir/lx/main_lx.cpp.obj: /home/claude/aleste-xi-bios/emulator
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/basic_string.tcc:
 
 /usr/share/mingw-w64/include/malloc.h:
+
+/usr/share/mingw-w64/include/concurrencysal.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/mmintrin.h:
 
@@ -1331,6 +1672,8 @@ CMakeFiles/alestelx.dir/lx/main_lx.cpp.obj: /home/claude/aleste-xi-bios/emulator
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/pconfigintrin.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/basic_ios.tcc:
+
+/usr/share/mingw-w64/include/psdk_inc/_socket_types.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/ratio:
 
@@ -1356,9 +1699,13 @@ CMakeFiles/alestelx.dir/lx/main_lx.cpp.obj: /home/claude/aleste-xi-bios/emulator
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/exception.h:
 
+/usr/share/mingw-w64/include/imm.h:
+
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_bvector.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/ext/atomicity.h:
+
+/usr/share/mingw-w64/include/rpc.h:
 
 /home/claude/aleste-xi-bios/deps/z80ex/include/z80ex_dasm.h:
 
@@ -1367,6 +1714,8 @@ CMakeFiles/alestelx.dir/lx/main_lx.cpp.obj: /home/claude/aleste-xi-bios/emulator
 /tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/invoke.h:
+
+/usr/share/mingw-w64/include/urlmon.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/codecvt.h:
 
@@ -1378,7 +1727,11 @@ CMakeFiles/alestelx.dir/lx/main_lx.cpp.obj: /home/claude/aleste-xi-bios/emulator
 
 /usr/share/mingw-w64/include/sys/timeb.h:
 
+/usr/share/mingw-w64/include/rpcndr.h:
+
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/unique_ptr.h:
+
+/usr/share/mingw-w64/include/mmsyscom.h:
 
 /tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_filesystem.h:
 
@@ -1388,6 +1741,8 @@ CMakeFiles/alestelx.dir/lx/main_lx.cpp.obj: /home/claude/aleste-xi-bios/emulator
 
 /usr/share/mingw-w64/include/stdlib.h:
 
+/usr/share/mingw-w64/include/namedpipeapi.h:
+
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/waitpkgintrin.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_deque.h:
@@ -1395,6 +1750,8 @@ CMakeFiles/alestelx.dir/lx/main_lx.cpp.obj: /home/claude/aleste-xi-bios/emulator
 /home/claude/aleste-xi-bios/emulator/lx/machine.cpp:
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/exception_ptr.h:
+
+/usr/share/mingw-w64/include/unknwnbase.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/xopintrin.h:
 
@@ -1430,6 +1787,8 @@ CMakeFiles/alestelx.dir/lx/main_lx.cpp.obj: /home/claude/aleste-xi-bios/emulator
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bit:
 
+/usr/share/mingw-w64/include/basetsd.h:
+
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/streambuf:
 
 /home/claude/aleste-xi-bios/emulator/lx/fdc765.cpp:
@@ -1460,11 +1819,15 @@ CMakeFiles/alestelx.dir/lx/main_lx.cpp.obj: /home/claude/aleste-xi-bios/emulator
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/algorithm:
 
+/usr/share/mingw-w64/include/tvout.h:
+
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/immintrin.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/allocated_ptr.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/functional_hash.h:
+
+/usr/share/mingw-w64/include/fileapi.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/hash_bytes.h:
 
@@ -1474,11 +1837,19 @@ CMakeFiles/alestelx.dir/lx/main_lx.cpp.obj: /home/claude/aleste-xi-bios/emulator
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/limits.h:
 
+/usr/share/mingw-w64/include/wtypesbase.h:
+
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/cstdio:
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/type_traits:
 
+/usr/share/mingw-w64/include/wnnc.h:
+
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/hashtable_policy.h:
+
+/usr/share/mingw-w64/include/wincon.h:
+
+/usr/share/mingw-w64/include/dde.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/cstddef:
 
@@ -1506,6 +1877,8 @@ CMakeFiles/alestelx.dir/lx/main_lx.cpp.obj: /home/claude/aleste-xi-bios/emulator
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/x86_64-w64-mingw32/bits/gthr.h:
 
+/usr/share/mingw-w64/include/pshpack8.h:
+
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/postypes.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/locale_facets_nonio.tcc:
@@ -1520,6 +1893,8 @@ CMakeFiles/alestelx.dir/lx/main_lx.cpp.obj: /home/claude/aleste-xi-bios/emulator
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/streambuf_iterator.h:
 
+/usr/share/mingw-w64/include/handleapi.h:
+
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/node_handle.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/cpp_type_traits.h:
@@ -1530,6 +1905,8 @@ CMakeFiles/alestelx.dir/lx/main_lx.cpp.obj: /home/claude/aleste-xi-bios/emulator
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/istream.tcc:
 
+/usr/share/mingw-w64/include/windows.h:
+
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/parse_numbers.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/x86intrin.h:
@@ -1537,6 +1914,8 @@ CMakeFiles/alestelx.dir/lx/main_lx.cpp.obj: /home/claude/aleste-xi-bios/emulator
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/stdlib.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/stl_iterator_base_funcs.h:
+
+/usr/share/mingw-w64/include/systemtopologyapi.h:
 
 /usr/share/mingw-w64/include/_mingw_mac.h:
 
@@ -1555,6 +1934,8 @@ CMakeFiles/alestelx.dir/lx/main_lx.cpp.obj: /home/claude/aleste-xi-bios/emulator
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/ext/type_traits.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/functional:
+
+/usr/share/mingw-w64/include/rpcdcep.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/bmiintrin.h:
 
@@ -1606,6 +1987,8 @@ CMakeFiles/alestelx.dir/lx/main_lx.cpp.obj: /home/claude/aleste-xi-bios/emulator
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/stdexcept:
 
+/usr/share/mingw-w64/include/rpcnsi.h:
+
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/pstl/glue_algorithm_defs.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/string_view:
@@ -1624,6 +2007,8 @@ CMakeFiles/alestelx.dir/lx/main_lx.cpp.obj: /home/claude/aleste-xi-bios/emulator
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h:
 
+/usr/share/mingw-w64/include/mmiscapi.h:
+
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/concept_check.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/x86_64-w64-mingw32/bits/error_constants.h:
@@ -1635,6 +2020,8 @@ CMakeFiles/alestelx.dir/lx/main_lx.cpp.obj: /home/claude/aleste-xi-bios/emulator
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/x86_64-w64-mingw32/bits/gthr-default.h:
 
 /tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_haptic.h:
+
+/usr/share/mingw-w64/include/cderr.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/x86_64-w64-mingw32/bits/time_members.h:
 
@@ -1664,6 +2051,8 @@ CMakeFiles/alestelx.dir/lx/main_lx.cpp.obj: /home/claude/aleste-xi-bios/emulator
 
 /usr/share/mingw-w64/include/string.h:
 
+/usr/share/mingw-w64/include/pshpack2.h:
+
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/shared_ptr.h:
 
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/c++/bits/char_traits.h:
@@ -1675,6 +2064,8 @@ CMakeFiles/alestelx.dir/lx/main_lx.cpp.obj: /home/claude/aleste-xi-bios/emulator
 /usr/share/mingw-w64/include/corecrt_stdio_config.h:
 
 /usr/share/mingw-w64/include/ctype.h:
+
+/usr/share/mingw-w64/include/winperf.h:
 
 /usr/share/mingw-w64/include/errno.h:
 
@@ -1702,11 +2093,15 @@ CMakeFiles/alestelx.dir/lx/main_lx.cpp.obj: /home/claude/aleste-xi-bios/emulator
 
 /usr/share/mingw-w64/include/sdks/_mingw_ddk.h:
 
+/usr/share/mingw-w64/include/virtdisk.h:
+
 /usr/lib/gcc/x86_64-w64-mingw32/13-posix/include/stddef.h:
 
 /home/claude/aleste-xi-bios/emulator/lx/main_lx.cpp:
 
 /usr/share/mingw-w64/include/sec_api/stdio_s.h:
+
+/usr/share/mingw-w64/include/objbase.h:
 
 /usr/share/mingw-w64/include/sec_api/stdlib_s.h:
 
@@ -1716,9 +2111,13 @@ CMakeFiles/alestelx.dir/lx/main_lx.cpp.obj: /home/claude/aleste-xi-bios/emulator
 
 /usr/share/mingw-w64/include/stddef.h:
 
+/usr/share/mingw-w64/include/minwindef.h:
+
 /usr/share/mingw-w64/include/stdio.h:
 
 /usr/share/mingw-w64/include/swprintf.inl:
+
+/usr/share/mingw-w64/include/psdk_inc/_fd_types.h:
 
 /usr/share/mingw-w64/include/sys/types.h:
 
@@ -1728,6 +2127,8 @@ CMakeFiles/alestelx.dir/lx/main_lx.cpp.obj: /home/claude/aleste-xi-bios/emulator
 
 /tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_gesture.h:
 
+/usr/share/mingw-w64/include/mmiscapi2.h:
+
 /tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_log.h:
 
 /tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_assert.h:
@@ -1736,11 +2137,15 @@ CMakeFiles/alestelx.dir/lx/main_lx.cpp.obj: /home/claude/aleste-xi-bios/emulator
 
 /tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_audio.h:
 
+/usr/share/mingw-w64/include/servprov.h:
+
 /tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_cpuinfo.h:
 
 /tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_guid.h:
 
 /tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_hidapi.h:
+
+/usr/share/mingw-w64/include/profileapi.h:
 
 /tmp/SDL2-2.30.9/x86_64-w64-mingw32/include/SDL2/SDL_hints.h:
 
