@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/alestelx.dir/lx/machine.cpp.obj.d"
   "CMakeFiles/alestelx.dir/lx/main_lx.cpp.obj"
   "CMakeFiles/alestelx.dir/lx/main_lx.cpp.obj.d"
+  "CMakeFiles/alestelx.dir/lx/tape.cpp.obj"
+  "CMakeFiles/alestelx.dir/lx/tape.cpp.obj.d"
   "alestelx.exe"
   "alestelx.pdb"
   "libalestelx.dll.a"

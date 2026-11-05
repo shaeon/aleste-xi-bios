@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/claude/aleste-xi-bios/emulator/lx/legacy.cpp" "CMakeFiles/alestelx.dir/lx/legacy.cpp.obj" "gcc" "CMakeFiles/alestelx.dir/lx/legacy.cpp.obj.d"
   "/home/claude/aleste-xi-bios/emulator/lx/machine.cpp" "CMakeFiles/alestelx.dir/lx/machine.cpp.obj" "gcc" "CMakeFiles/alestelx.dir/lx/machine.cpp.obj.d"
   "/home/claude/aleste-xi-bios/emulator/lx/main_lx.cpp" "CMakeFiles/alestelx.dir/lx/main_lx.cpp.obj" "gcc" "CMakeFiles/alestelx.dir/lx/main_lx.cpp.obj.d"
+  "/home/claude/aleste-xi-bios/emulator/lx/tape.cpp" "CMakeFiles/alestelx.dir/lx/tape.cpp.obj" "gcc" "CMakeFiles/alestelx.dir/lx/tape.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

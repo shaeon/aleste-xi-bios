@@ -342,6 +342,33 @@ lx/main_lx.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/alestelx.dir/build.make CMakeFiles/alestelx.dir/lx/main_lx.cpp.s
 .PHONY : lx/main_lx.cpp.s
 
+lx/tape.obj: lx/tape.cpp.obj
+.PHONY : lx/tape.obj
+
+# target to build an object file
+lx/tape.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alestelx.dir/build.make CMakeFiles/alestelx.dir/lx/tape.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_matrix.dir/build.make CMakeFiles/test_matrix.dir/lx/tape.cpp.obj
+.PHONY : lx/tape.cpp.obj
+
+lx/tape.i: lx/tape.cpp.i
+.PHONY : lx/tape.i
+
+# target to preprocess a source file
+lx/tape.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alestelx.dir/build.make CMakeFiles/alestelx.dir/lx/tape.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_matrix.dir/build.make CMakeFiles/test_matrix.dir/lx/tape.cpp.i
+.PHONY : lx/tape.cpp.i
+
+lx/tape.s: lx/tape.cpp.s
+.PHONY : lx/tape.s
+
+# target to generate assembly for a file
+lx/tape.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/alestelx.dir/build.make CMakeFiles/alestelx.dir/lx/tape.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_matrix.dir/build.make CMakeFiles/test_matrix.dir/lx/tape.cpp.s
+.PHONY : lx/tape.cpp.s
+
 tests/test_matrix.obj: tests/test_matrix.cpp.obj
 .PHONY : tests/test_matrix.obj
 
@@ -399,6 +426,9 @@ help:
 	@echo "... lx/main_lx.obj"
 	@echo "... lx/main_lx.i"
 	@echo "... lx/main_lx.s"
+	@echo "... lx/tape.obj"
+	@echo "... lx/tape.i"
+	@echo "... lx/tape.s"
 	@echo "... tests/test_matrix.obj"
 	@echo "... tests/test_matrix.i"
 	@echo "... tests/test_matrix.s"
